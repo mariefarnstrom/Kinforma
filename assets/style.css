@@ -6,3 +6,39 @@
     box-sizing: border-box;
     margin: 0;
 }
+
+header {
+    width: 100vw;
+    height: 20vh;
+    text-align: center;
+}
+
+main {
+    width: 100vw;
+}
+
+.navigationBar {
+    width: 95%;
+    height: 48px;
+    left: 2.5%;
+    right: 2.5%;
+    bottom: 50px;
+    background-color: #ffff;
+    opacity: 50%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+.hero {
+    width: 100vw;
+    height: 80vh;
+}
+
+.hero video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
