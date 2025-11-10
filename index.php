@@ -10,6 +10,10 @@
 
 <body>
     <header>
+        <div class="banner">
+            <span>MISSA INTE CHANSEN LÄMNA DIN E-POST ADRESS</span>
+            <button class="closeButton"><img src="/assets/icons/x-icon.png"></button>
+        </div>
         <h1>KIN/FORMA</h1>
         <p>Riktig värme handlar aldrig om utsidan</p>
     </header>
@@ -29,6 +33,7 @@
     <footer>
 
     </footer>
+
 </body>
 
 </html>
