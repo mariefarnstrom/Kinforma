@@ -21,6 +21,11 @@ header {
     background-color: rgba(234, 234, 234, 0.5);
 }
 
+.banner button {
+    border: none;
+    background: none;
+}
+
 main {
     width: 100vw;
 }
