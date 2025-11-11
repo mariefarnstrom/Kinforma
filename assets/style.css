@@ -127,11 +127,12 @@ main {
 
 .lastVideo {
     width: 100vw;
-    height: 80vh;
+    aspect-ratio: 1;
 }
 
 .bonfireVideo {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: 85%;
 }
