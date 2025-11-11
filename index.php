@@ -43,6 +43,9 @@ require __DIR__.'/header.php';
             <div></div>
             <div></div>
         </section>
+        <section class="fullScreenImage">
+            <img class="backpackersImage" src="/assets/images/hikers.png">
+        </section>
 
     </main>
 <?php 

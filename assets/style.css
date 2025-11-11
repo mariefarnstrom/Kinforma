@@ -113,3 +113,14 @@ main {
     width: calc(50% - 8px);
     aspect-ratio: 185/272;
 }
+
+.fullScreenImage {
+    width: 100vw;
+    aspect-ratio: 1/2;
+}
+
+.backpackersImage {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
