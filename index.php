@@ -37,6 +37,12 @@ require __DIR__.'/header.php';
         <article class="middleVideo">
             <video autoplay muted loop src="/assets/videos/drillAnimation.mov"></video>
         </article>
+        <section class="productPictures">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
 
     </main>
 <?php 

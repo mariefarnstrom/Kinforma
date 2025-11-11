@@ -99,3 +99,17 @@ main {
     height: 100%;
     object-fit: cover;
 }
+
+.productPictures {
+    width: 100vw;
+    margin: 8px;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.productPictures div {
+    background-color: grey;
+    width: calc(50% - 8px);
+    aspect-ratio: 185/272;
+}
