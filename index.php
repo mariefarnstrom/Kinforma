@@ -18,6 +18,25 @@ require __DIR__.'/header.php';
             <div></div>
             <div></div>
         </section>
+        <article>
+            <h1>KIN/FORM BAG</h1>
+            <img src="/assets/images/backpack.png">
+        </article>
+        <section class="pocketsCarousel">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
+        <section class="textField">
+            <h1>VÄRM BÖRJAR MED DIG</h1>
+            <p>Upptäck våra textilier och hur du kan sprida din värme med vårt techmaterial och konfigurering </p>
+        </section>
+        <article class="middleVideo">
+            <video autoplay muted loop src="/assets/videos/drillAnimation.mov"></video>
+        </article>
 
     </main>
 <?php 
