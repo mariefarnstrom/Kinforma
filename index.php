@@ -46,6 +46,9 @@ require __DIR__.'/header.php';
         <section class="fullScreenImage">
             <img class="backpackersImage" src="/assets/images/hikers.png">
         </section>
+        <article class="lastVideo">
+            <video class="bonfireVideo" autoplay muted loop src="/assets/videos/bonfire.mp4"></video>
+        </article>
 
     </main>
 <?php 

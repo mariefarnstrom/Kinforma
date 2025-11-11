@@ -124,3 +124,14 @@ main {
     width: 100%;
     object-fit: cover;
 }
+
+.lastVideo {
+    width: 100vw;
+    height: 80vh;
+}
+
+.bonfireVideo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
