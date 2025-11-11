@@ -54,3 +54,19 @@ main {
     height: 100%;
     object-fit: cover;
 }
+
+.carousel {
+    width: 100vw;
+    margin-bottom: 8px;
+    display: flex;
+    gap: 8px;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+.carousel div {
+    background-color: beige;
+    height: 300px;
+    width: 200px;
+    flex: 0 0 47%;
+}
