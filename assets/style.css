@@ -63,9 +63,9 @@ main {
 
 .carousel {
     width: 100vw;
-    margin-bottom: 8px;
+    padding: 10px;
     display: flex;
-    gap: 8px;
+    gap: 9.5px;
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
 }
@@ -102,4 +102,74 @@ footer{
     text-decoration: none;
     color: white;
     justify-content: center;
+    background-color: grey;
+    height: 108px;
+    width: 87px;
+}
+
+.pocketsCarousel {
+    width: 100vw;
+    display: flex;
+    gap: 25px;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+.pocketsCarousel div {
+    background-color: grey;
+    height: 80px;
+    width: 80px;
+    flex: 0 0 20%;
+}
+
+.textField {
+    text-align: center;
+}
+
+.middleVideo {
+    width: 100vw;
+    height: 80vh;
+}
+
+.middleVideo video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.productPictures {
+    width: 100vw;
+    margin: 8px;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.productPictures div {
+    background-color: grey;
+    width: calc(50% - 8px);
+    aspect-ratio: 185/272;
+}
+
+.fullScreenImage {
+    width: 100vw;
+    aspect-ratio: 1/2;
+}
+
+.backpackersImage {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.lastVideo {
+    width: 100vw;
+    aspect-ratio: 1;
+}
+
+.bonfireVideo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 85%;
 }

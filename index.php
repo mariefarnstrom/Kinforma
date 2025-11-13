@@ -1,22 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/style.css">
-    <title>Kinforma</title>
-</head>
-
-<body>
-    <header>
-        <div class="banner">
-            <span>MISSA INTE CHANSEN LÄMNA DIN E-POST ADRESS</span>
-            <button class="closeButton"><img src="/assets/icons/x-icon.png"></button>
-        </div>
-        <h1>KIN/FORMA</h1>
-        <p>Riktig värme handlar aldrig om utsidan</p>
-    </header>
+require __DIR__.'/header.php';
+?>
     <nav class="navigationBar">
         <a><img src="/assets/icons/search.png"></a>
         <a><img src="/assets/icons/profile.png"></a>
@@ -33,6 +18,37 @@
             <div></div>
             <div></div>
         </section>
+        <article>
+            <h1>KIN/FORM BAG</h1>
+            <img src="/assets/images/backpack.png">
+        </article>
+        <section class="pocketsCarousel">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
+        <section class="textField">
+            <h1>VÄRM BÖRJAR MED DIG</h1>
+            <p>Upptäck våra textilier och hur du kan sprida din värme med vårt techmaterial och konfigurering </p>
+        </section>
+        <article class="middleVideo">
+            <video autoplay muted loop src="/assets/videos/drillAnimation.mov"></video>
+        </article>
+        <section class="productPictures">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
+        <section class="fullScreenImage">
+            <img class="backpackersImage" src="/assets/images/hikers.png">
+        </section>
+        <article class="lastVideo">
+            <video class="bonfireVideo" autoplay muted loop src="/assets/videos/bonfire.mp4"></video>
+        </article>
 
     </main>
 <?php 
