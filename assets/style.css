@@ -1,5 +1,11 @@
 /* ROOT */
 
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+    --footer-color: rgb(0, 0, 0);
+}
+
+
 /* GENERAL */
 
 * {
