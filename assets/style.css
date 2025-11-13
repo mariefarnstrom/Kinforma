@@ -22,8 +22,6 @@ header {
 }
 
 .banner {
-    margin-top: 40px;
-    margin-bottom: 30px;
     background-color: rgba(234, 234, 234, 0.5);
 }
 
@@ -48,6 +46,8 @@ main {
     justify-content: space-between;
     align-items: center;
     z-index: 1;
+    padding: 1rem;
+   
 }
 
 .hero {
