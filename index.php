@@ -18,7 +18,7 @@ require __DIR__.'/header.php';
             <div></div>
             <div></div>
         </section>
-        <article>
+        <article class="bag-box">
             <h1>KIN/FORM BAG</h1>
             <img src="/assets/images/backpack.png">
         </article>
@@ -46,6 +46,21 @@ require __DIR__.'/header.php';
         <section class="fullScreenImage">
             <img class="backpackersImage" src="/assets/images/hikers.png">
         </section>
+         <div class="banner">
+            <span>MISSA INTE CHANSEN LÄMNA DIN E-POST ADRESS</span>
+            <button class="closeButton"><img src="/assets/icons/x-icon.png"></button>
+        </div>
+        <div class="emailContainer">
+            <b>
+                Äkta värme finns i stunderna vi delar 
+            </b>
+            <p>
+                Var först att utrycka dig själv och visa din unika stil med KIN/FORMA.
+            </p>
+            <p class="emailBox">
+                E-postadress*
+            </p>
+        </div>
         <article class="lastVideo">
             <video class="bonfireVideo" autoplay muted loop src="/assets/videos/bonfire.mp4"></video>
         </article>

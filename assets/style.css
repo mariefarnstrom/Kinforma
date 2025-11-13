@@ -16,8 +16,6 @@ header {
 }
 
 .banner {
-    margin-top: 40px;
-    margin-bottom: 30px;
     background-color: rgba(234, 234, 234, 0.5);
 }
 
@@ -42,6 +40,8 @@ main {
     justify-content: space-between;
     align-items: center;
     z-index: 1;
+    padding: 1rem;
+   
 }
 
 .hero {
@@ -135,4 +135,22 @@ main {
     height: 100%;
     object-fit: cover;
     object-position: 85%;
+}
+.bag-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.emailContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+}
+.emailBox{
+    padding-top: 1rem;
+    padding-bottom: 8px;
+    color: gray;
+    border-bottom: 2px solid black;
 }
