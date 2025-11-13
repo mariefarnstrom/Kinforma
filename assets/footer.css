@@ -1,0 +1,26 @@
+/* FOOTER */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: var(--footer-color);
+    margin-bottom: 100px;
+}
+
+.aboutUs {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1rem 0 1rem;
+}
+
+.socials{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.aboutUs a, .socials a {
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+}
