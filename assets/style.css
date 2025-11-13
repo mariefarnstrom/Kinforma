@@ -71,10 +71,9 @@ main {
 }
 
 .carousel div {
-    background-color: beige;
-    height: 300px;
-    width: 200px;
-    flex: 0 0 47%;
+    background-color: grey;
+    height: 108px;
+    width: 87px;
 }
 
 .pocketsCarousel {
@@ -168,7 +167,4 @@ footer{
     text-decoration: none;
     color: white;
     justify-content: center;
-    background-color: grey;
-    height: 108px;
-    width: 87px;
 }
