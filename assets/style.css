@@ -21,14 +21,6 @@ header {
     flex-direction: column;
 }
 
-.banner {
-    background-color: rgba(234, 234, 234, 0.5);
-}
-
-.banner button {
-    border: none;
-    background: none;
-}
 
 main {
     width: 100vw;
@@ -142,3 +134,61 @@ main {
     object-fit: cover;
     object-position: 85%;
 }
+
+/* marquee text */
+
+.marquee-wrapper{
+    position: relative;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    margin: 1rem auto;
+    background-color: rgba(234, 234, 234, 0.5);
+    width: 100vw;
+    height: 30px;
+}
+
+.marquee-text{
+    overflow: clip;
+    width: 85vw;
+    margin: 0 auto;
+    padding: 6px;
+}
+
+.marquee-text-track{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding-left: 60vw;
+    gap: 60vw;
+    width: max-content;
+    animation: marquee-movie-text 10s linear infinite;
+    text-wrap: nowrap;
+}
+
+.marquee-close-button {
+    right: 0.5rem;
+}
+
+.marquee-icon {
+    left: 0.5rem;
+}
+
+.marquee-icon, .marquee-close-button {
+    position: absolute;
+    margin: 0 0.5rem;
+    margin-left: auto;
+    border: none;
+    background: none;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@keyframes marquee-movie-text {
+    to {
+        transform: translate(-50%);
+    }
+}
+
+
+

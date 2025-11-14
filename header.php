@@ -10,10 +10,15 @@
 
 <body>
     <header>
-        <div class="banner">
-            <span>MISSA INTE CHANSEN LÄMNA DIN E-POST ADRESS</span>
-            <button class="closeButton"><img src="/assets/icons/x-icon.png"></button>
-        </div>
+        <section class="marquee-wrapper">
+            <button class="marquee-close-button"><img src="/assets/icons/x-icon.png"></button>
+            <div class="marquee-text">
+                <div class="marquee-text-track">
+                    <p>MISSA INTE CHANSEN LÄMNA DIN E-POST ADRESS</p>
+                    <p aria-hidden="true">MISSA INTE CHANSEN LÄMNA DIN E-POST ADRESS</p>
+                </div>
+            </div>
+        </section>
         <h1>KIN/FORMA</h1>
         <p>Riktig värme handlar aldrig om utsidan</p>
     </header>
