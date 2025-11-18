@@ -43,6 +43,10 @@ require __DIR__.'/header.php';
             <div><span>Beauty</span></div>
             <div><span>Accessoarer</span></div>
         </section>
+        <section class="materialInfo">
+            <h2>Kin/form techmaterial</h2>
+            <p>Lite information om techmaterialet/ textilen som vi använder i våra kläder och varför det är bäst! Gortex, magnetiska sömmar - all dessa saker och något som visar det.</p>
+        </section>
         <section class="fullScreenImage">
             <img class="backpackersImage" src="/assets/images/hikers.png">
         </section>
