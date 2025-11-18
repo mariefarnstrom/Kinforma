@@ -19,5 +19,6 @@
                 <p>&copy copyright all rights reserved</p>
             </div>
         </footer>
+        <script src="script.js"></script>
     </body>
 </html>
