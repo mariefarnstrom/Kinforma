@@ -14,10 +14,7 @@
                     <a><img src="/assets/icons/tiktok.png"></a>
                 </div>
             </nav>
-            <div>
-                <p>KIN/FORMA</p>
-                <p>&copy copyright all rights reserved</p>
-            </div>
+            <p class="logo">KIN/FORMA</p>
         </footer>
     </body>
 </html>

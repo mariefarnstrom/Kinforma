@@ -15,7 +15,6 @@
     --container-color:  #D9D9D9B2;
 }
 
-
 /* GENERAL */
 
 * {
@@ -39,6 +38,14 @@ header {
 main {
     width: 100vw;
 }
+
+/* Typography */
+
+.logo {
+    font-size: 2rem;
+    font-family: var(--logo-font);
+}
+
 
 /* navigation bar */
 .navigationBar {
