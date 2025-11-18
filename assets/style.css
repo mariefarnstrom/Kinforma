@@ -32,6 +32,7 @@ header {
     text-align: center;
     display: flex;
     flex-direction: column;
+    position: absolute;
 }
 
 
@@ -49,11 +50,12 @@ main {
 
 /* navigation bar */
 .navigationBar {
-    width: 95%;
-    height: 48px;
-    left: 2.5%;
-    right: 2.5%;
-    bottom: 50px;
+    width: 96%;
+    height: 3rem;
+    left: 2%;
+    right: 2%;
+    bottom: 2rem;
+    backdrop-filter: blur(20px);
     background-color: rgba(255, 255, 255, 0.5);
     position: fixed;
     display: flex;
@@ -67,7 +69,7 @@ main {
 /* hero */
 .hero {
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
 }
 
 .hero video {
