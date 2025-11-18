@@ -119,8 +119,23 @@ main {
 
 .productPictures div {
     background-color: grey;
-    width: calc(50% - 4px);
+    width: calc(50% - 0.25rem);
     aspect-ratio: 185/272;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.productPictures div span {
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 50%;
+    margin-bottom: 1rem;
+    text-align: center;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    font-family: var(--secondary-font);
+    font-size: 0.75rem;
 }
 
 .fullScreenImage {
