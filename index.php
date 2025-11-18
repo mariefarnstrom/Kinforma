@@ -38,10 +38,10 @@ require __DIR__.'/header.php';
             <video autoplay muted loop src="/assets/videos/drillAnimation.mov"></video>
         </article>
         <section class="productPictures">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+            <div><span>Kläder</span></div>
+            <div><span>Merch</span></div>
+            <div><span>Beauty</span></div>
+            <div><span>Accessoarer</span></div>
         </section>
         <section class="fullScreenImage">
             <img class="backpackersImage" src="/assets/images/hikers.png">
