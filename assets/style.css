@@ -138,6 +138,10 @@ main {
     font-size: 0.75rem;
 }
 
+.materialInfo {
+    text-align: center;
+}
+
 .fullScreenImage {
     width: 100vw;
     aspect-ratio: 1/2;
