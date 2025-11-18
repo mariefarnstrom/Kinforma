@@ -12,13 +12,22 @@ require __DIR__.'/header.php';
         <article class="hero">
             <video autoplay muted loop src="/assets/videos/grass.mp4"></video>
         </article>
-        <section class="carousel">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+
+        <section class="productPictures">
+            <div><span>Kläder</span></div>
+            <div><span>Merch</span></div>
+            <div><span>Beauty</span></div>
+            <div><span>Accessoarer</span></div>
         </section>
-        <article class="bag-box">
+        <section class="materialInfo">
+            <h2>Kin/form techmaterial</h2>
+            <p>Lite information om techmaterialet/ textilen som vi använder i våra kläder och varför det är bäst! Gortex, magnetiska sömmar - all dessa saker och något som visar det.</p>
+        </section>
+        <article class="materialVideo">
+            <video autoplay muted loop src="/assets/videos/drillAnimation.mov"></video>
+        </article>
+
+        <article class="configuratorContainer">
             <h1>KIN/FORM BAG</h1>
             <img src="/assets/images/backpack.png">
         </article>
@@ -29,23 +38,6 @@ require __DIR__.'/header.php';
             <div></div>
             <div></div>
             <div></div>
-        </section>
-        <section class="textField">
-            <h1>VÄRM BÖRJAR MED DIG</h1>
-            <p>Upptäck våra textilier och hur du kan sprida din värme med vårt techmaterial och konfigurering </p>
-        </section>
-        <article class="middleVideo">
-            <video autoplay muted loop src="/assets/videos/drillAnimation.mov"></video>
-        </article>
-        <section class="productPictures">
-            <div><span>Kläder</span></div>
-            <div><span>Merch</span></div>
-            <div><span>Beauty</span></div>
-            <div><span>Accessoarer</span></div>
-        </section>
-        <section class="materialInfo">
-            <h2>Kin/form techmaterial</h2>
-            <p>Lite information om techmaterialet/ textilen som vi använder i våra kläder och varför det är bäst! Gortex, magnetiska sömmar - all dessa saker och något som visar det.</p>
         </section>
         <section class="fullScreenImage">
             <img class="backpackersImage" src="/assets/images/hikers.png">

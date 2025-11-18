@@ -20,5 +20,5 @@
             </div>
         </section>
         <h1>KIN/FORMA</h1>
-        <p>Riktig värme handlar aldrig om utsidan</p>
+        <p>Framtidens mode, idag</p>
     </header>
