@@ -27,18 +27,30 @@ require __DIR__.'/header.php';
             <video autoplay muted loop src="/assets/videos/drillAnimation.mov"></video>
         </article>
 
-        <article class="configuratorContainer">
-            <h1>KIN/FORM BAG</h1>
-            <img src="/assets/images/backpack.png">
-        </article>
+        <!-- configurator -->
+    <article class="configurator">
+      <section id="variantAndColorSelector">
+        <div class="variantHolder">
+            <img id="productVariant" src="assets/images/circle-red.png" /><br />
+        </div>
+
+      <!-- Color buttons -->
+        <div id="colors">
+            <button id="redButton"></button>
+            <button id="greenButton"></button>
+            <button id="greyButton"></button>
+        </div>
+      </section>
+
         <section class="pocketsCarousel">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+            <div><img id="model1" src="/assets/images/switchable-item.png"></div>
+            <div><img id="model2" src="/assets/images/switchable-item(1).png"></div>
+            <div><img id="model3" src="/assets/images/switchable-item(2).png"></div>
+            <div><img id="model4" src="/assets/images/switchable-item(3).png"></div>
             <div></div>
             <div></div>
         </section>
+    </article>
         <section class="fullScreenImage">
             <img class="backpackersImage" src="/assets/images/hikers.png">
         </section>

@@ -122,19 +122,80 @@ main {
 }
 
 /* configurator */
+/* .configurator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
+
+#variantAndColorSelector {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.variantHolder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#productVariant {
+    height: 25vh;
+}
+
+#colors {
+    height: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1rem;
+}
+
+#colors button {
+    width: 7rem;
+    height: 5rem;
+    margin: .5rem;
+    border-style: none;
+}
+
+#redButton {
+    background-color: red;
+}
+
+#blueButton {
+    background-color: blue;
+}
+
+#greenButton {
+    background-color: green;
+}
+#greyButton {
+    background-color: grey;
+}
+
 .pocketsCarousel {
     width: 100vw;
     display: flex;
     gap: 25px;
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 .pocketsCarousel div {
     background-color: grey;
-    height: 80px;
-    width: 80px;
-    flex: 0 0 20%;
+    height: 7.5rem;
+    width: 7.5rem;
+    flex: 0 0 30%;
+}
+
+.pocketsCarousel div img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 /* human image */
