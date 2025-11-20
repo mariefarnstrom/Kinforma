@@ -44,6 +44,8 @@ header {
 #siteTitle {
     font-family: var(--logo-font);
     font-size: 2.5rem;
+    color: #fff;
+    font-weight: 300;
 }
 
 #headerText {
@@ -51,6 +53,7 @@ header {
     font-style: italic;
     font-size: 1.125rem;
     font-weight: 400;
+    color: #fff;
 }
 
 main {
@@ -112,6 +115,7 @@ main {
     background-color: grey;
     width: calc(50% - 0.25rem);
     aspect-ratio: 185/272;
+    position: relative;
 }
 
 .productPictures div h3 {
@@ -119,6 +123,14 @@ main {
     font-size: 1.125rem;
     margin-left: 1.125rem;
     margin-top: 0.5625rem;
+    position: absolute;
+}
+
+.productPictures img {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
 }
 
 .materialInfo {
@@ -173,13 +185,14 @@ main {
 
 #variantSelector {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: flex-start;
 }
 
 .variantHolder {
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 #productVariant {
@@ -190,10 +203,7 @@ main {
 .pockets {
     display: flex;
     gap: 1rem;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
     flex-direction: column;
-    justify-content: center;
 }
 
 .pockets div {
@@ -206,6 +216,10 @@ main {
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+#productInfo {
+    width: 16.33868625rem;
 }
 
 #colors {

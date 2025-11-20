@@ -17,6 +17,7 @@ require __DIR__ . '/header.php';
         <section class="productPictures">
             <div>
                 <h3>Kläder</h3>
+                <img src="/assets/images/clothes.png">
             </div>
             <div>
                 <h3>Accessoarer</h3>
@@ -45,7 +46,7 @@ require __DIR__ . '/header.php';
             <div id="productsToConfigurate">
                 <div>
                     <img src="/assets/images/backpack-small.png">
-                    <h4>TECH BAG</h4>
+                    <h4>TECH VÄSKA</h4>
                 </div>
                 <div>
                     <img src="/assets/images/jacka.png">
@@ -56,6 +57,7 @@ require __DIR__ . '/header.php';
         <section id="variantSelector">
             <div class="variantHolder">
                 <img id="productVariant" src="assets/images/circle-red.png" /><br />
+                <p id="productInfo">TECH väska är utvecklad med KIN Tech/material</p>
             </div>
             <section class="pockets">
                 <div><img id="model1" src="/assets/images/switchable-item.png"></div>
