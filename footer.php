@@ -1,5 +1,6 @@
 <link rel="stylesheet" href="/assets/style.css">
 <link rel="stylesheet" href="/assets/footer.css">
+<link rel="stylesheet" href="/assets/media-queries.css">
 
         <footer>
             <nav>
@@ -16,6 +17,6 @@
             </nav>
             <p class="footerLogo">KIN/FORMA</p>
         </footer>
-        <script src="script.js"></script>
+        <script src="/assets/script.js"></script>
     </body>
 </html>

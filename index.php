@@ -73,18 +73,22 @@ require __DIR__ . '/header.php';
             <button id="greyButton"></button>
         </div>
     </article>
-    <section class="fullScreenImage">
-        <img class="backpackersImage" src="/assets/images/hikers.png">
-    </section>
-    <section class="marquee-wrapper">
-        <img class="marquee-icon" src="/assets/icons/marquee.png">
-        <button class="marquee-close-button"><img src="/assets/icons/x-icon.png"></button>
-        <div class="marquee-text">
-            <div class="marquee-text-track">
-                <p>MISSA INTE CHANSEN LÄMNA DIN E-POST ADRESS</p>
-                <p aria-hidden="true">MISSA INTE CHANSEN LÄMNA DIN E-POST ADRESS</p>
+    <section class="fullScreenImage-marquee-container">
+        <section class="fullScreenImage">
+            <img class="backpackersImage" src="/assets/images/hikers.png">
+        </section>
+        <section class="marquee-wrapper">
+            <img class="marquee-icon" src="/assets/icons/marquee.png">
+            <button class="marquee-close-button"><img src="/assets/icons/x-icon.png"></button>
+            <div class="marquee-text">
+                <div class="marquee-text-track">
+                    <p>MISSA INTE CHANSEN LÄMNA DIN E-POST ADRESS</p>
+                    <p aria-hidden="true">MISSA INTE CHANSEN LÄMNA DIN E-POST ADRESS</p>
+                    <p aria-hidden="true">MISSA INTE CHANSEN LÄMNA DIN E-POST ADRESS</p>
+                    <p aria-hidden="true">MISSA INTE CHANSEN LÄMNA DIN E-POST ADRESS</p>
+                </div>
             </div>
-        </div>
+        </section>
     </section>
     </div>
     <div class="emailContainer">
