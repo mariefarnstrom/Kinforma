@@ -19,6 +19,6 @@
                 </div>
             </div>
         </section>
-        <h1>KIN/FORMA</h1>
+        <p class="logo">KIN/FORMA</p>
         <p>Framtidens mode, idag</p>
     </header>
