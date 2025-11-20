@@ -1,0 +1,74 @@
+/* Typography */
+
+@media screen and (min-width: 800px) {
+    p {
+        font-size: 18px;
+    }
+
+    h1{
+        font-size: 3rem;
+    }
+}
+
+/* human image */
+
+@media screen and (min-width: 800px) {
+    .fullScreenImage {
+        height: 100vh;
+        aspect-ratio: 1;
+    }
+}
+
+/* footer video */
+
+@media screen and (min-width: 800px) {
+    @keyframes marquee-movie-text {
+    to {
+        transform: translate(-50%);
+    }
+}
+}
+
+/* marquee */
+
+@media screen and (min-width: 800px) {
+    .marquee-text-track {
+        animation: marquee-movie-text 10s linear infinite;
+        gap: 40vw;
+    }
+    .marquee-wrapper-header {
+        margin-top: 1rem;
+    }
+    @keyframes marquee-movie-text {
+    to {
+        transform: translate(-47%);
+    }
+}
+}
+
+
+/* footer */
+
+@media screen and (min-width: 800px) {
+    footer nav{
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+    .aboutUs, .socials {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between; 
+        width: 35%;
+    } 
+    .aboutUs a{
+        display: flex;
+        justify-content: space-between;
+    }
+    footer{
+        height: 30vh;
+    }
+}
