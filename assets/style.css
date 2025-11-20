@@ -279,6 +279,13 @@ h1{
     object-position: 85%;
 }
 
+@media screen and (min-width: 800px) {
+    .lastVideo {
+        height: 71vh;
+    }
+}
+
+
 /* marquee text */
 
 .marquee-wrapper{
