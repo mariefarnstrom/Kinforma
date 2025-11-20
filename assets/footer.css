@@ -1,10 +1,14 @@
 /* FOOTER */
 
+/* logo */
+
 .footerLogo{
     font-family: var(--logo-font);
     font-size: 2rem;
     margin-bottom: 3rem;
 }
+
+/* general */
 
 footer{
     padding: 0 2rem;
@@ -18,6 +22,9 @@ footer{
     text-align: center;
     font-family: var(--main-font);
 }
+
+
+/* contact */
 
 .aboutUs {
     display: flex;
@@ -43,3 +50,27 @@ footer{
 .aboutUs, .socials {
     margin: 2rem 0 2rem 0;
 } 
+
+@media screen and (min-width: 800px) {
+    nav{
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+    .aboutUs, .socials {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between; 
+        width: 35%;
+    } 
+    .aboutUs a{
+        display: flex;
+        justify-content: space-between;
+    }
+    footer{
+        height: 40vh;
+    }
+}
