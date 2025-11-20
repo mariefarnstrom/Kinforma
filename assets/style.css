@@ -256,6 +256,7 @@ h1{
 /* human image */
 .fullScreenImage {
     width: 100vw;
+    height: 100vh;
     aspect-ratio: 1/2;
 }
 
@@ -263,6 +264,13 @@ h1{
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+@media screen and (min-width: 800px) {
+    .fullScreenImage {
+        height: 100vh;
+        aspect-ratio: 1;
+    }
 }
 
 /* footer video */
