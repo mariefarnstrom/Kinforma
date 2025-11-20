@@ -15,10 +15,18 @@ require __DIR__ . '/header.php';
     <article>
         <h1 id="categoriesHeading">Utforska våra produkter</h1>
         <section class="productPictures">
-            <div><h3>Kläder</h3></div>
-            <div><h3>Merch</h3></div>
-            <div><h3>Beauty</h3></div>
-            <div><h3>Accessoarer</h3></div>
+            <div>
+                <h3>Kläder</h3>
+            </div>
+            <div>
+                <h3>Accessoarer</h3>
+            </div>
+            <div>
+                <h3>Beauty</h3>
+            </div>
+            <div>
+                <h3>Merch</h3>
+            </div>
         </section>
     </article>
     <section class="materialInfo">
@@ -45,27 +53,23 @@ require __DIR__ . '/header.php';
                 </div>
             </div>
         </div>
-        <section id="variantAndColorSelector">
+        <section id="variantSelector">
             <div class="variantHolder">
                 <img id="productVariant" src="assets/images/circle-red.png" /><br />
             </div>
-
-            <!-- Color buttons -->
-            <div id="colors">
-                <button id="redButton"></button>
-                <button id="greenButton"></button>
-                <button id="greyButton"></button>
-            </div>
+            <section class="pockets">
+                <div><img id="model1" src="/assets/images/switchable-item.png"></div>
+                <div><img id="model2" src="/assets/images/switchable-item(1).png"></div>
+                <div><img id="model3" src="/assets/images/switchable-item(2).png"></div>
+                <div><img id="model4" src="/assets/images/switchable-item(3).png"></div>
+            </section>
         </section>
-
-        <section class="pocketsCarousel">
-            <div><img id="model1" src="/assets/images/switchable-item.png"></div>
-            <div><img id="model2" src="/assets/images/switchable-item(1).png"></div>
-            <div><img id="model3" src="/assets/images/switchable-item(2).png"></div>
-            <div><img id="model4" src="/assets/images/switchable-item(3).png"></div>
-            <div></div>
-            <div></div>
-        </section>
+        <!-- Color buttons -->
+        <div id="colors">
+            <button id="redButton"></button>
+            <button id="greenButton"></button>
+            <button id="greyButton"></button>
+        </div>
     </article>
     <section class="fullScreenImage">
         <img class="backpackersImage" src="/assets/images/hikers.png">

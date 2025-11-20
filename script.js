@@ -22,6 +22,10 @@
         currentModel = "star";
         update();
       };
+        document.getElementById("model4").onclick = () => {
+        currentModel = "";
+        update();
+      };
 
       // connect color buttons
       document.getElementById("redButton").onclick = () => {

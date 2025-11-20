@@ -41,6 +41,17 @@ header {
     position: absolute;
 }
 
+#siteTitle {
+    font-family: var(--logo-font);
+    font-size: 2.5rem;
+}
+
+#headerText {
+    font-family: var(--main-font);
+    font-style: italic;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
 
 main {
     width: 100vw;
@@ -101,21 +112,13 @@ main {
     background-color: grey;
     width: calc(50% - 0.25rem);
     aspect-ratio: 185/272;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
 }
 
 .productPictures div h3 {
-    backdrop-filter: blur(20px);
-    background-color: rgba(255, 255, 255, 0.5);
-    width: 50%;
-    margin-bottom: 1rem;
-    text-align: center;
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem;
-    font-family: var(--secondary-font);
-    font-size: 0.75rem;
+    font-family: var(--main-font);
+    font-size: 1.125rem;
+    margin-left: 1.125rem;
+    margin-top: 0.5625rem;
 }
 
 .materialInfo {
@@ -168,35 +171,53 @@ main {
     font-size: 0.75rem;
 }
 
-#variantAndColorSelector {
+#variantSelector {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .variantHolder {
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 #productVariant {
-    height: 25vh;
+    height: 19.719rem;
+    width: 16.33868625rem;
+}
+
+.pockets {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pockets div {
+    background-color: grey;
+    height: 4rem;
+    width: 6.0625rem;
+}
+
+.pockets div img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 #colors {
-    height: 60vw;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    margin-left: 1rem;
 }
 
 #colors button {
-    width: 7rem;
-    height: 5rem;
-    margin: .5rem;
+    width: 5.5rem;
+    height: 4rem;
     border-style: none;
+    margin: 1rem;
 }
 
 #redButton {
@@ -214,28 +235,6 @@ main {
     background-color: grey;
 }
 
-.pocketsCarousel {
-    width: 100vw;
-    display: flex;
-    gap: 25px;
-    overflow-x: scroll;
-    scroll-snap-type: x mandatory;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-}
-
-.pocketsCarousel div {
-    background-color: grey;
-    height: 7.5rem;
-    width: 7.5rem;
-    flex: 0 0 30%;
-}
-
-.pocketsCarousel div img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
 
 /* human image */
 .fullScreenImage {
