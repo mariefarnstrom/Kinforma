@@ -3,18 +3,18 @@
 
         <footer>
             <nav>
-                <div class="aboutUs">
-                    <a href="/">OM KINFORMA</a>
-                    <a href="/">KONTAKTA OSS</a>
-                </div>
                 <div class="socials">
                     <a><img src="/assets/icons/facebook.png"></a>
                     <a><img src="/assets/icons/insta.png"></a>
                     <a><img src="/assets/icons/patreon.png"></a>
                     <a><img src="/assets/icons/tiktok.png"></a>
                 </div>
+                <div class="aboutUs">
+                    <a href="/"><p>OM KINFORMA</p></a>
+                    <a href="/"><p>KONTAKTA OSS</p></a>
+                </div>
             </nav>
-            <p class="logo">KIN/FORMA</p>
+            <p class="footerLogo">KIN/FORMA</p>
         </footer>
         <script src="script.js"></script>
     </body>

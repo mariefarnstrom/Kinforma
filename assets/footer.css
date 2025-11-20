@@ -1,8 +1,14 @@
 /* FOOTER */
 
+.footerLogo{
+    font-family: var(--logo-font);
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
 footer{
     padding: 0 2rem;
-    height: 35vh;
+    height: 40vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -16,7 +22,6 @@ footer{
 .aboutUs {
     display: flex;
     justify-content: space-between;
-    margin: 0 1rem;
 }
 
 .socials{
@@ -26,13 +31,11 @@ footer{
 }
 
 .socials a img {
-    width: 2rem;
-    height: 2rem;
+    width: 32px;
+    height: 32px;
 }
 
 .aboutUs a, .socials a {
-    font-weight: 400;
-    font-size: 1rem;
     color: white;
     justify-content: space-between;
 }
@@ -40,8 +43,3 @@ footer{
 .aboutUs, .socials {
     margin: 2rem 0 2rem 0;
 } 
-
-.logo{
-    padding: 2rem 0;
-}
-
