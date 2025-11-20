@@ -54,7 +54,15 @@ h1{
     font-weight: 700;
 }
 
+@media screen and (min-width: 800px) {
+p {
+    font-size: 18px;
+}
 
+h1{
+    font-size: 3rem;
+}
+}
 /* navigation bar */
 .navigationBar {
     width: 95%;
