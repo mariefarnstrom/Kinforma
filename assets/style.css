@@ -26,6 +26,12 @@ html {
     font-size: 16px;
 }
 
+h1 {
+    font-family: var(--main-font);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
 header {
     width: 100vw;
     height: 20vh;
@@ -79,6 +85,11 @@ main {
 }
 
 /* categories */
+#categoriesHeading {
+    text-align: center;
+    padding: 1.5rem;
+}
+
 .productPictures {
     width: 100vw;
     display: flex;
@@ -95,7 +106,7 @@ main {
     align-items: flex-end;
 }
 
-.productPictures div span {
+.productPictures div h3 {
     backdrop-filter: blur(20px);
     background-color: rgba(255, 255, 255, 0.5);
     width: 50%;
@@ -124,12 +135,38 @@ main {
 }
 
 /* configurator */
-/* .configurator {
+#productTypeSelection {
+    text-align: center;
+    background-color: rgba(217, 217, 217, 0.7);  
+}
+
+#dinStilHeading {
+    padding-top: 0.75rem;
+    padding-bottom: 0.5rem;
+}
+
+.configurator p {
+    font-family: var(--main-font);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+#productsToConfigurate {
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-} */
+}
+
+#productsToConfigurate div {
+    height: 5.5rem;
+    width: 5.5rem;
+    background-color: grey;
+    margin: 0.57rem 1.1875rem;
+}
+
+#productsToConfigurate h4 {
+    font-family: var(--main-font);
+    font-size: 0.75rem;
+}
 
 #variantAndColorSelector {
     display: flex;

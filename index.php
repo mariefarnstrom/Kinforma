@@ -1,46 +1,62 @@
 <?php
 
-require __DIR__.'/header.php';
+require __DIR__ . '/header.php';
 ?>
-    <nav class="navigationBar">
-        <a><img src="/assets/icons/search.png"></a>
-        <a><img src="/assets/icons/profile.png"></a>
-        <a><img src="/assets/icons/shop.png"></a>
-        <a><img src="/assets/icons/menu.png"></a>
-    </nav>
-    <main>
-        <article class="hero">
-            <video autoplay muted loop src="/assets/videos/grass.mp4"></video>
-        </article>
-
+<nav class="navigationBar">
+    <a><img src="/assets/icons/search.png"></a>
+    <a><img src="/assets/icons/profile.png"></a>
+    <a><img src="/assets/icons/shop.png"></a>
+    <a><img src="/assets/icons/menu.png"></a>
+</nav>
+<main>
+    <article class="hero">
+        <video autoplay muted loop src="/assets/videos/grass.mp4"></video>
+    </article>
+    <article>
+        <h1 id="categoriesHeading">Utforska våra produkter</h1>
         <section class="productPictures">
-            <div><span>Kläder</span></div>
-            <div><span>Merch</span></div>
-            <div><span>Beauty</span></div>
-            <div><span>Accessoarer</span></div>
+            <div><h3>Kläder</h3></div>
+            <div><h3>Merch</h3></div>
+            <div><h3>Beauty</h3></div>
+            <div><h3>Accessoarer</h3></div>
         </section>
-        <section class="materialInfo">
-            <h2>Kin/form techmaterial</h2>
-            <p>Lite information om techmaterialet/ textilen som vi använder i våra kläder och varför det är bäst! Gortex, magnetiska sömmar - all dessa saker och något som visar det.</p>
-        </section>
-        <article class="materialVideo">
-            <video autoplay muted loop src="/assets/videos/drillAnimation.mov"></video>
-        </article>
+    </article>
+    <section class="materialInfo">
+        <h2>Kin/form techmaterial</h2>
+        <p>Lite information om techmaterialet/ textilen som vi använder i våra kläder och varför det är bäst! Gortex, magnetiska sömmar - all dessa saker och något som visar det.</p>
+    </section>
+    <article class="materialVideo">
+        <video autoplay muted loop src="/assets/videos/drillAnimation.mov"></video>
+    </article>
 
-        <!-- configurator -->
+    <!-- configurator -->
     <article class="configurator">
-      <section id="variantAndColorSelector">
-        <div class="variantHolder">
-            <img id="productVariant" src="assets/images/circle-red.png" /><br />
+        <div id="productTypeSelection">
+            <h1 id="dinStilHeading">Din stil, Ditt val</h1>
+            <p>Designa dina egna KIN/FORM saker. Skapa det som du gillar bäst.</p>
+            <div id="productsToConfigurate">
+                <div>
+                    <img src="/assets/images/backpack-small.png">
+                    <h4>TECH BAG</h4>
+                </div>
+                <div>
+                    <img src="/assets/images/jacka.png">
+                    <h4>TECH JACKA</h4>
+                </div>
+            </div>
         </div>
+        <section id="variantAndColorSelector">
+            <div class="variantHolder">
+                <img id="productVariant" src="assets/images/circle-red.png" /><br />
+            </div>
 
-      <!-- Color buttons -->
-        <div id="colors">
-            <button id="redButton"></button>
-            <button id="greenButton"></button>
-            <button id="greyButton"></button>
-        </div>
-      </section>
+            <!-- Color buttons -->
+            <div id="colors">
+                <button id="redButton"></button>
+                <button id="greenButton"></button>
+                <button id="greyButton"></button>
+            </div>
+        </section>
 
         <section class="pocketsCarousel">
             <div><img id="model1" src="/assets/images/switchable-item.png"></div>
@@ -51,35 +67,35 @@ require __DIR__.'/header.php';
             <div></div>
         </section>
     </article>
-        <section class="fullScreenImage">
-            <img class="backpackersImage" src="/assets/images/hikers.png">
-        </section>
-        <section class="marquee-wrapper">
-            <img class="marquee-icon" src="/assets/icons/marquee.png">
-            <button class="marquee-close-button"><img src="/assets/icons/x-icon.png"></button>
-            <div class="marquee-text">
-                <div class="marquee-text-track">
-                    <p>MISSA INTE CHANSEN LÄMNA DIN E-POST ADRESS</p>
-                    <p aria-hidden="true">MISSA INTE CHANSEN LÄMNA DIN E-POST ADRESS</p>
-                </div>
+    <section class="fullScreenImage">
+        <img class="backpackersImage" src="/assets/images/hikers.png">
+    </section>
+    <section class="marquee-wrapper">
+        <img class="marquee-icon" src="/assets/icons/marquee.png">
+        <button class="marquee-close-button"><img src="/assets/icons/x-icon.png"></button>
+        <div class="marquee-text">
+            <div class="marquee-text-track">
+                <p>MISSA INTE CHANSEN LÄMNA DIN E-POST ADRESS</p>
+                <p aria-hidden="true">MISSA INTE CHANSEN LÄMNA DIN E-POST ADRESS</p>
             </div>
-        </section>
         </div>
-        <div class="emailContainer">
-            <b>
-                Äkta värme finns i stunderna vi delar 
-            </b>
-            <p>
-                Var först att utrycka dig själv och visa din unika stil med KIN/FORMA.
-            </p>
-            <p class="emailBox">
-                E-postadress*
-            </p>
-        </div>
-        <article class="lastVideo">
-            <video class="bonfireVideo" autoplay muted loop src="/assets/videos/bonfire.mp4"></video>
-        </article>
+    </section>
+    </div>
+    <div class="emailContainer">
+        <b>
+            Äkta värme finns i stunderna vi delar
+        </b>
+        <p>
+            Var först att utrycka dig själv och visa din unika stil med KIN/FORMA.
+        </p>
+        <p class="emailBox">
+            E-postadress*
+        </p>
+    </div>
+    <article class="lastVideo">
+        <video class="bonfireVideo" autoplay muted loop src="/assets/videos/bonfire.mp4"></video>
+    </article>
 
-    </main>
-<?php 
-require __DIR__.'/footer.php';
+</main>
+<?php
+require __DIR__ . '/footer.php';
