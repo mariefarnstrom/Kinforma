@@ -50,27 +50,3 @@ footer{
 .aboutUs, .socials {
     margin: 2rem 0 2rem 0;
 } 
-
-@media screen and (min-width: 800px) {
-    nav{
-        display: flex;
-        flex-direction: row-reverse;
-        width: 100%;
-        align-items: center;
-        justify-content: space-between;
-        padding: 1rem;
-    }
-    .aboutUs, .socials {
-        display: flex;
-        flex-wrap: nowrap;
-        justify-content: space-between; 
-        width: 35%;
-    } 
-    .aboutUs a{
-        display: flex;
-        justify-content: space-between;
-    }
-    footer{
-        height: 30vh;
-    }
-}
