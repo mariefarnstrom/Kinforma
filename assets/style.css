@@ -132,6 +132,7 @@ h1{
     margin-left: 1.125rem;
     margin-top: 0.5625rem;
     position: absolute;
+    z-index: 1;
 }
 
 .productPictures img {
