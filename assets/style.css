@@ -169,7 +169,7 @@ h1{
 #productTypeSelection {
     width: 100%;
     text-align: center;
-    background-color: rgba(217, 217, 217, 0.7);  
+    background-color: rgba(217, 217, 217, 0.2);  
 }
 
 #dinStilHeading {
@@ -309,6 +309,7 @@ h1{
     display: flex;
     align-self: center;
     align-items: center;
+    backdrop-filter: blur(20px);
     background-color: rgba(234, 234, 234, 0.5);
     width: 100vw;
     height: 42px;

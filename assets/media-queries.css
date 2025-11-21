@@ -11,11 +11,14 @@
 }
 
 @media screen and (min-width: 800px) {
+    #categoriesHeading {
+        display: none;
+    }
     .productPictures {
         gap: 1rem;
+        margin: 1.5rem 0;
     }
     .productPictures div {
-        /* height: calc(50vh - 0.5rem); */
         width: calc(50% - 0.5rem);
         aspect-ratio: 632/412;
 }
