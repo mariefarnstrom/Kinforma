@@ -42,6 +42,7 @@ header {
     font-size: 2.5rem;
     color: #fff;
     font-weight: 300;
+    margin-top: 5.0625rem;
 }
 
 #headerText {
@@ -185,6 +186,10 @@ h1{
     margin: 0.57rem 1.1875rem;
 }
 
+#bagImage {
+    border-bottom: 2px solid black;
+}
+
 #productsToConfigurate h4 {
     font-family: var(--main-font);
     font-size: 0.75rem;
@@ -219,6 +224,10 @@ h1{
     width: 6.0625rem;
 }
 
+.modelButton.active {
+  border-bottom: 2px solid black;
+}
+
 .pockets div img {
     height: 100%;
     width: 100%;
@@ -234,11 +243,16 @@ h1{
     justify-content: center;
 }
 
-#colors button {
+.colorButton {
     width: 5.5rem;
     height: 4rem;
     border-style: none;
     margin: 1rem;
+}
+
+.colorButton.active {
+    border-bottom: 2px solid black;
+
 }
 
 #redButton {
@@ -252,6 +266,7 @@ h1{
 #greenButton {
     background-color: green;
 }
+
 #greyButton {
     background-color: grey;
 }

@@ -45,7 +45,7 @@ require __DIR__ . '/header.php';
             <p>Designa dina egna KIN/FORM saker. Skapa det som du gillar bäst.</p>
             <div id="productsToConfigurate">
                 <div>
-                    <img src="/assets/images/backpack-small.png">
+                    <img id="bagImage" src="/assets/images/backpack-small.png">
                     <h4>TECH VÄSKA</h4>
                 </div>
                 <div>
@@ -60,17 +60,17 @@ require __DIR__ . '/header.php';
                 <p id="productInfo">TECH väska är utvecklad med KIN Tech/material</p>
             </div>
             <section class="pockets">
-                <div><img id="model1" src="/assets/images/switchable-item.png"></div>
-                <div><img id="model2" src="/assets/images/switchable-item(1).png"></div>
-                <div><img id="model3" src="/assets/images/switchable-item(2).png"></div>
-                <div><img id="model4" src="/assets/images/switchable-item(3).png"></div>
+                <div><img id="model1" class="modelButton" src="/assets/images/switchable-item.png" data-model="rectangle"></div>
+                <div><img id="model2" class="modelButton" src="/assets/images/switchable-item(1).png" data-model="circle"></div>
+                <div><img id="model3" class="modelButton" src="/assets/images/switchable-item(2).png" data-model="star"></div>
+                <div><img id="model4" class="modelbutton" src="/assets/images/switchable-item(3).png"></div>
             </section>
         </section>
         <!-- Color buttons -->
         <div id="colors">
-            <button id="redButton"></button>
-            <button id="greenButton"></button>
-            <button id="greyButton"></button>
+            <div id="redButton" class="colorButton" data-color="red"></div>
+            <div id="greenButton" class="colorButton" data-color="green"></div>
+            <div id="greyButton" class="colorButton" data-color="grey"></div>
         </div>
     </article>
     <section class="fullScreenImage-marquee-container">
