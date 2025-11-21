@@ -22,6 +22,6 @@
                 </div>
             </div>
         </section>
-        <p class="logo">KIN/FORMA</p>
-        <p>Framtidens mode, idag</p>
+        <h1 id="siteTitle">KIN/FORMA</h1>
+        <p id="headerText">Framtidens mode, idag</p>
     </header>
