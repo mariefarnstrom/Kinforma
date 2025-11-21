@@ -35,6 +35,7 @@ header {
     display: flex;
     flex-direction: column;
     position: absolute;
+    z-index: 1;
 }
 
 #siteTitle {
@@ -98,12 +99,36 @@ h1{
 .hero {
     width: 100vw;
     height: 100vh;
+    position: relative;
 }
 
 .hero video {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.pauseButton {
+    background: none;
+    border: none;
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+    height: 2rem;
+    width: 2rem;
+}
+
+#button1 {
+    bottom: 5.5rem;
+}
+
+.pauseButton.playing {
+    background-image: url('/assets/icons/play.png');
+    background-size: contain;
+}
+
+.pauseButton.playing img {
+    display: none;
 }
 
 /* categories */
@@ -150,6 +175,7 @@ h1{
 .materialVideo {
     width: 100vw;
     height: 80vh;
+    position: relative;
 }
 
 .materialVideo video {
@@ -385,9 +411,10 @@ h1{
     width: 100vw;
     height: 60vh;
     aspect-ratio: 1;
+    position: relative;
 }
 
-.bonfireVideo {
+#bonfireVideo {
     width: 100%;
     height: 100%;
     object-fit: cover;

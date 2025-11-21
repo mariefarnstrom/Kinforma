@@ -10,7 +10,8 @@ require __DIR__ . '/header.php';
 </nav>
 <main>
     <article class="hero">
-        <video autoplay muted loop src="/assets/videos/grass.mp4"></video>
+        <video class="video" autoplay muted loop src="/assets/videos/grass.mp4"></video>
+        <button class="pauseButton" id="button1"><img src="/assets/icons/pause.png"></button>
     </article>
     <article>
         <h1 id="categoriesHeading">Utforska våra produkter</h1>
@@ -35,8 +36,17 @@ require __DIR__ . '/header.php';
         <p>Lite information om techmaterialet/ textilen som vi använder i våra kläder och varför det är bäst! Gortex, magnetiska sömmar - all dessa saker och något som visar det.</p>
     </section>
     <article class="materialVideo">
-        <video autoplay muted loop src="/assets/videos/drillAnimation.mov"></video>
+        <video class="video" autoplay muted loop src="/assets/videos/drillAnimation.mov"></video>
+        <button class="pauseButton"><img src="/assets/icons/pause.png"></button>
     </article>
+    <!-- <div class="video-container">
+    <video id="myVideo">
+        <source src="Drillanimation0001-0250.mov">
+    </video>
+
+     Your custom button (use your symbol here instead of ► or ❚❚) -->
+    <!-- <button id="pauseBtn" class="video-btn">❚❚</button>
+</div> -->
 
     <!-- configurator -->
     <article class="configurator">
@@ -118,7 +128,8 @@ require __DIR__ . '/header.php';
         </form>
     </div>
     <article class="lastVideo">
-        <video class="bonfireVideo" autoplay muted loop src="/assets/videos/bonfire.mp4"></video>
+        <video class="video" id="bonfireVideo" autoplay muted loop src="/assets/videos/bonfire.mp4"></video>
+        <button class="pauseButton"><img src="/assets/icons/pause.png"></button>
     </article>
 
 </main>

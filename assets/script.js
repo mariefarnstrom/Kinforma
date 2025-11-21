@@ -1,73 +1,57 @@
+// pause/play buttons
+const videos = document.querySelectorAll(".video");
+const btn = document.querySelectorAll(".pauseButton");
 
-      // current selection
-      let currentModel = "circle";
-      let currentColor = "red";
-
-      function update() {
-        document.getElementById(
-          "productVariant"
-        ).src = `assets/images/${currentModel}-${currentColor}.png`;
+btn.forEach((button, i) => {
+  button.addEventListener("click", () => {
+    const video = videos[i];
+      if (video.paused) {
+          video.play();
+          button.classList.remove('playing');
+      } else {
+          video.pause();
+          button.classList.add('playing');
       }
+});
+});
+      
+// configurator
+let currentModel = "circle";
+let currentColor = "red";
 
-      // connect model buttons
-      // document.getElementById("model1").onclick = () => {
-      //   currentModel = "rectangle";
-      //   update();
-      // };
-      // document.getElementById("model2").onclick = () => {
-      //   currentModel = "circle";
-      //   update();
-      // };
-      // document.getElementById("model3").onclick = () => {
-      //   currentModel = "star";
-      //   update();
-      // };
-      //   document.getElementById("model4").onclick = () => {
-      //   currentModel = "";
-      //   update();
-      // };
+function update() {
+  document.getElementById(
+    "productVariant"
+  ).src = `assets/images/${currentModel}-${currentColor}.png`;
+}
 
-      // // connect color buttons
-      // document.getElementById("redButton").onclick = () => {
-      //   currentColor = "red";
-      //   update();
-      // };
-      // document.getElementById("greenButton").onclick = () => {
-      //   currentColor = "green";
-      //   update();
-      // };
-      // document.getElementById("greyButton").onclick = () => {
-      //   currentColor = "grey";
-      //   update();
-      // };
+const modelButtons = document.querySelectorAll('.modelButton');
 
-      const modelButtons = document.querySelectorAll('.modelButton');
+modelButtons.forEach(button => {
+  button.addEventListener('click', () => {
 
-      modelButtons.forEach(button => {
-        button.addEventListener('click', () => {
-    
-          modelButtons.forEach(btn => btn.classList.remove('active'));
+    modelButtons.forEach(btn => btn.classList.remove('active'));
 
-          button.classList.add('active');
+    button.classList.add('active');
 
-          currentModel = button.dataset.model;
-          update();
-        });
-      });
+    currentModel = button.dataset.model;
+    update();
+  });
+});
 
-      const colorButtons = document.querySelectorAll('.colorButton');
+const colorButtons = document.querySelectorAll('.colorButton');
 
-      colorButtons.forEach(button => {
-        button.addEventListener('click', () => {
-    
-          colorButtons.forEach(btn => btn.classList.remove('active'));
+colorButtons.forEach(button => {
+  button.addEventListener('click', () => {
 
-          button.classList.add('active');
+    colorButtons.forEach(btn => btn.classList.remove('active'));
 
-          currentColor = button.dataset.color;
-          update();
-        });
-      });
+    button.classList.add('active');
 
-      console.log(document.querySelectorAll('.colorButton'));
+    currentColor = button.dataset.color;
+    update();
+  });
+});
+
+console.log(document.querySelectorAll('.colorButton'));
 document.querySelectorAll('.colorButton').forEach(b => console.log(b.dataset));

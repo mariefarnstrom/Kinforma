@@ -35,7 +35,7 @@
     #colors {
         flex-direction: column;
         align-self: flex-start;
-        margin-top: 2rem;
+        margin-top: 1rem;
         order: 1;
     }
     .variantHolder {
@@ -45,6 +45,10 @@
     .pockets {
         margin: 2rem 1rem 0 1rem;
         order: 3;
+    }
+    .colorButton {
+        height: 5rem;
+        width: 6.5rem;
     }
 }
 
