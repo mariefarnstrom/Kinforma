@@ -10,6 +10,28 @@
     }
 }
 
+@media screen and (min-width: 600px) {
+       
+    #config { display: flex;
+        /* justify-content: space-around; */
+        /* flex-direction: row-reverse; */
+    }
+    #colors {
+        flex-direction: column;
+        align-self: flex-start;
+        margin-top: 2rem;
+        order: 1;
+    }
+    .variantHolder {
+        order: 2;
+    }
+    .pockets {
+        /* margin-top: 2rem; */
+        margin: 2rem 1rem 0 1rem;
+        order: 3;
+    }
+}
+
 /* human image */
 
 @media screen and (min-width: 800px) {

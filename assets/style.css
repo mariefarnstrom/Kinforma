@@ -186,6 +186,12 @@ h1{
     margin: 0.57rem 1.1875rem;
 }
 
+#config {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 #bagImage {
     border-bottom: 2px solid black;
 }
@@ -216,6 +222,7 @@ h1{
     display: flex;
     gap: 1rem;
     flex-direction: column;
+    width: 6.0625rem;
 }
 
 .pockets div {
