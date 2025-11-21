@@ -10,6 +10,29 @@
     }
 }
 
+/* configurator */
+
+@media screen and (min-width: 600px) {
+       
+    #config {
+        display: flex;
+    }
+    #colors {
+        flex-direction: column;
+        align-self: flex-start;
+        margin-top: 2rem;
+        order: 1;
+    }
+    .variantHolder {
+        order: 2;
+        margin: 0 7vw;
+    }
+    .pockets {
+        margin: 2rem 1rem 0 1rem;
+        order: 3;
+    }
+}
+
 /* human image */
 
 @media screen and (min-width: 800px) {

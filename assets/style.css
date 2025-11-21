@@ -158,7 +158,15 @@ h1{
 }
 
 /* configurator */
+
+.configurator {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 #productTypeSelection {
+    width: 100%;
     text-align: center;
     background-color: rgba(217, 217, 217, 0.7);  
 }
@@ -186,6 +194,12 @@ h1{
     margin: 0.57rem 1.1875rem;
 }
 
+#config {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 #bagImage {
     border-bottom: 2px solid black;
 }
@@ -193,12 +207,6 @@ h1{
 #productsToConfigurate h4 {
     font-family: var(--main-font);
     font-size: 0.75rem;
-}
-
-#variantSelector {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
 }
 
 .variantHolder {
@@ -216,6 +224,7 @@ h1{
     display: flex;
     gap: 1rem;
     flex-direction: column;
+    width: 6.0625rem;
 }
 
 .pockets div {

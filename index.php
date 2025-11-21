@@ -54,7 +54,7 @@ require __DIR__ . '/header.php';
                 </div>
             </div>
         </div>
-        <section id="variantSelector">
+        <div id="config">
             <div class="variantHolder">
                 <img id="productVariant" src="assets/images/circle-red.png" /><br />
                 <p id="productInfo">TECH väska är utvecklad med KIN Tech/material</p>
@@ -65,12 +65,12 @@ require __DIR__ . '/header.php';
                 <div><img id="model3" class="modelButton" src="/assets/images/switchable-item(2).png" data-model="star"></div>
                 <div><img id="model4" class="modelbutton" src="/assets/images/switchable-item(3).png"></div>
             </section>
-        </section>
         <!-- Color buttons -->
         <div id="colors">
             <div id="redButton" class="colorButton" data-color="red"></div>
             <div id="greenButton" class="colorButton" data-color="green"></div>
             <div id="greyButton" class="colorButton" data-color="grey"></div>
+        </div>
         </div>
     </article>
        <form class="customizeContainer" action="">
