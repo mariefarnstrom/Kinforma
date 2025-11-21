@@ -73,8 +73,20 @@ require __DIR__ . '/header.php';
             <div id="greyButton" class="colorButton" data-color="grey"></div>
         </div>
     </article>
+       <form class="customizeContainer" action="">
+            <b>
+                Namnge din KINF/FORM design:
+            </b>
+            <input type="text" name="text" placeholder="ex. Min KIN/FORM väska*" id="">
+            <b>
+                E-post:
+            </b>
+            <input type="email" name="email" placeholder="E-postadress*" id="">
+            <button class="Sparabutton"> Spara ditt design </button>
+          </form>
     <section class="fullScreenImage-marquee-container">
         <section class="fullScreenImage">
+       
             <img class="backpackersImage" src="/assets/images/hikers.png">
         </section>
         <section class="marquee-wrapper">
@@ -91,16 +103,19 @@ require __DIR__ . '/header.php';
         </section>
     </section>
     </div>
-    <div class="emailContainer">
+    <div class="inputContainer">
+        <div class="inputMessage">
         <b>
-            Äkta värme finns i stunderna vi delar
+            Gå aldrig miste en uppdatering
         </b>
         <p>
             Var först att utrycka dig själv och visa din unika stil med KIN/FORMA.
         </p>
-        <p class="emailBox">
-            E-postadress*
-        </p>
+        </div>
+        <form class="Nyhetsform" action="/index.php">
+        <input type="email" name="Email" placeholder="E-postadress*" id="">
+        <button class="Nyhetsbutton" > Få vårt nyhetsbrev </button>
+        </form>
     </div>
     <article class="lastVideo">
         <video class="bonfireVideo" autoplay muted loop src="/assets/videos/bonfire.mp4"></video>
