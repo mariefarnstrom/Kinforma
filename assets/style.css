@@ -300,18 +300,22 @@ h1{
     padding-left: 60vw;
     gap: 60vw;
     width: max-content;
-    animation: marquee-movie-text 10s linear infinite;
+    animation: marquee-movie-text 15s linear infinite;
     text-wrap: nowrap;
 }
 
 .marquee-close-button {
-    right: 0.5rem;
+    right: 1rem;
     font-size: large;
     padding-left: 4px;
 }
+/* .marquee-close-button img{
+    width: 15px;
+    height: 15px;
+} */
 
 .marquee-icon {
-    left: 1rem;
+    left: 0.8rem;
 }
 
 .marquee-icon, .marquee-close-button {
@@ -323,6 +327,11 @@ h1{
     top: 50%;
     transform: translateY(-50%);
     padding: 0.1rem;
+}
+
+.marquee-icon img, .marquee-close-button img{
+    width: 15px;
+    height: 15px;
 }
 
 @keyframes marquee-movie-text {
