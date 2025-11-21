@@ -10,6 +10,18 @@
     }
 }
 
+@media screen and (min-width: 800px) {
+    .productPictures {
+        gap: 1rem;
+    }
+    .productPictures div {
+        /* height: calc(50vh - 0.5rem); */
+        width: calc(50% - 0.5rem);
+        aspect-ratio: 632/412;
+}
+    
+}
+
 /* configurator */
 
 @media screen and (min-width: 600px) {
