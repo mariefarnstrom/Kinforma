@@ -345,6 +345,54 @@ h1{
     object-fit: cover;
     object-position: 85%;
 }
-
-
-
+.inputMessage{
+    margin: 1rem;
+}
+.Nyhetsform{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+.Nyhetsform input{
+    width: 100%;
+    border:0;
+    border-bottom: solid black 2px;
+}
+.Nyhetsbutton{
+    border: 0;
+    background-color: black;
+    color: white;
+    width: 10rem;
+    margin-top: 1rem;
+    padding: 0.5rem;
+}
+.Nyhetsbutton:hover{
+       background-color: rgba(0, 0, 0, 0.866);
+}
+.customizeContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.customizeContainer b {
+    margin: 1rem;
+    margin-top: 0;
+}
+.customizeContainer input{
+    margin: 1rem;
+    margin-top: 0;
+      width: 90%;
+    border:0;
+    border-bottom: solid black 2px;
+}
+.Sparabutton{
+    display: flex;
+      border: 0;
+    background-color: black;
+    color: white;
+    width: 10rem;
+    margin:1rem;
+    padding: 0.5rem;
+    align-self: center;
+    justify-content: center;
+}
