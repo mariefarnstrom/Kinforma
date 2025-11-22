@@ -52,6 +52,27 @@
     }
 }
 
+@media  screen and (max-width: 420px){
+    .navigationBar {
+    }
+    .modelButton {
+        height: 3.5rem;
+        width: 5.3rem;
+    }
+    .colorButton {
+        height: 4rem;
+        width: 5.2rem;
+        margin: 0.6rem;
+    }
+    #productVariant {
+        height: 14rem;
+        width: 12rem;
+    }
+    #productInfo {
+        width: 12rem;
+    }
+};
+    
 /* human image */
 
 @media screen and (min-width: 800px) {
