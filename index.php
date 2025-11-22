@@ -1,6 +1,6 @@
 <?php
 
-require __DIR__ . 'header.php';
+require __DIR__ . '/header.php';
 ?>
 <nav class="navigationBar">
     <a><img src="assets/icons/search.png"></a>
@@ -134,4 +134,4 @@ require __DIR__ . 'header.php';
 
 </main>
 <?php
-require __DIR__ . 'footer.php';
+require __DIR__ . '/footer.php';
