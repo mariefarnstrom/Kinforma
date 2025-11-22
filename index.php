@@ -1,24 +1,24 @@
 <?php
 
-require __DIR__ . '/header.php';
+require __DIR__ . 'header.php';
 ?>
 <nav class="navigationBar">
-    <a><img src="/assets/icons/search.png"></a>
-    <a><img src="/assets/icons/profile.png"></a>
-    <a><img src="/assets/icons/shop.png"></a>
-    <a><img src="/assets/icons/menu.png"></a>
+    <a><img src="assets/icons/search.png"></a>
+    <a><img src="assets/icons/profile.png"></a>
+    <a><img src="assets/icons/shop.png"></a>
+    <a><img src="assets/icons/menu.png"></a>
 </nav>
 <main>
     <article class="hero">
-        <video class="video" autoplay muted loop src="/assets/videos/grass.mp4"></video>
-        <button class="pauseButton" id="button1"><img src="/assets/icons/pause.png"></button>
+        <video class="video" autoplay muted loop src="assets/videos/grass.mp4"></video>
+        <button class="pauseButton" id="button1"><img src="assets/icons/pause.png"></button>
     </article>
     <article>
         <h1 id="categoriesHeading">Utforska våra produkter</h1>
         <section class="productPictures">
             <div>
                 <h3>Kläder</h3>
-                <img src="/assets/images/clothes.png">
+                <img src="assets/images/clothes.png">
             </div>
             <div>
                 <h3>Accessoarer</h3>
@@ -36,8 +36,8 @@ require __DIR__ . '/header.php';
         <p>Lite information om techmaterialet/ textilen som vi använder i våra kläder och varför det är bäst! Gortex, magnetiska sömmar - all dessa saker och något som visar det.</p>
     </section>
     <article class="materialVideo">
-        <video class="video" autoplay muted loop src="/assets/videos/drillAnimation.mov"></video>
-        <button class="pauseButton"><img src="/assets/icons/pause.png"></button>
+        <video class="video" autoplay muted loop src="assets/videos/drillAnimation.mov"></video>
+        <button class="pauseButton"><img src="assets/icons/pause.png"></button>
     </article>
     <!-- <div class="video-container">
     <video id="myVideo">
@@ -55,11 +55,11 @@ require __DIR__ . '/header.php';
             <p>Designa dina egna KIN/FORM saker. Skapa det som du gillar bäst.</p>
             <div id="productsToConfigurate">
                 <div>
-                    <img id="bagImage" src="/assets/images/backpack-small.png">
+                    <img id="bagImage" src="assets/images/backpack-small.png">
                     <h4>TECH VÄSKA</h4>
                 </div>
                 <div>
-                    <img src="/assets/images/jacka.png">
+                    <img src="assets/images/jacka.png">
                     <h4>TECH JACKA</h4>
                 </div>
             </div>
@@ -70,10 +70,10 @@ require __DIR__ . '/header.php';
                 <p id="productInfo">TECH väska är utvecklad med KIN Tech/material</p>
             </div>
             <section class="pockets">
-                <div><img id="model1" class="modelButton" src="/assets/images/switchable-item.png" data-model="rectangle"></div>
-                <div><img id="model2" class="modelButton" src="/assets/images/switchable-item(1).png" data-model="circle"></div>
-                <div><img id="model3" class="modelButton" src="/assets/images/switchable-item(2).png" data-model="star"></div>
-                <div><img id="model4" class="modelbutton" src="/assets/images/switchable-item(3).png"></div>
+                <div><img id="model1" class="modelButton" src="assets/images/switchable-item.png" data-model="rectangle"></div>
+                <div><img id="model2" class="modelButton" src="assets/images/switchable-item(1).png" data-model="circle"></div>
+                <div><img id="model3" class="modelButton" src="assets/images/switchable-item(2).png" data-model="star"></div>
+                <div><img id="model4" class="modelbutton" src="assets/images/switchable-item(3).png"></div>
             </section>
         <!-- Color buttons -->
         <div id="colors">
@@ -97,11 +97,11 @@ require __DIR__ . '/header.php';
     <section class="fullScreenImage-marquee-container">
         <section class="fullScreenImage">
        
-            <img class="backpackersImage" src="/assets/images/hikers.png">
+            <img class="backpackersImage" src="assets/images/hikers.png">
         </section>
         <section class="marquee-wrapper">
-            <img class="marquee-icon" src="/assets/icons/marquee.png">
-            <button class="marquee-close-button"><img src="/assets/icons/x-icon.png"></button>
+            <img class="marquee-icon" src="assets/icons/marquee.png">
+            <button class="marquee-close-button"><img src="assets/icons/x-icon.png"></button>
             <div class="marquee-text">
                 <div class="marquee-text-track">
                     <p>MISSA INTE CHANSEN LÄMNA DIN E-POST ADRESS</p>
@@ -122,16 +122,16 @@ require __DIR__ . '/header.php';
             Var först att utrycka dig själv och visa din unika stil med KIN/FORMA.
         </p>
         </div>
-        <form class="Nyhetsform" action="/index.php">
+        <form class="Nyhetsform" action="index.php">
         <input type="email" name="Email" placeholder="E-postadress*" id="">
         <button class="Nyhetsbutton" > Få vårt nyhetsbrev </button>
         </form>
     </div>
     <article class="lastVideo">
-        <video class="video" id="bonfireVideo" autoplay muted loop src="/assets/videos/bonfire.mp4"></video>
-        <button class="pauseButton"><img src="/assets/icons/pause.png"></button>
+        <video class="video" id="bonfireVideo" autoplay muted loop src="assets/videos/bonfire.mp4"></video>
+        <button class="pauseButton"><img src="assets/icons/pause.png"></button>
     </article>
 
 </main>
 <?php
-require __DIR__ . '/footer.php';
+require __DIR__ . 'footer.php';
