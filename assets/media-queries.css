@@ -28,7 +28,10 @@
 /* configurator */
 
 @media screen and (min-width: 600px) {
-       
+
+    #productTypeSelection {
+        background-color: var(--dark-container-color);
+    }   
     #config {
         display: flex;
     }
@@ -75,21 +78,17 @@
 
 @media screen and (min-width: 800px) {
     .marquee-text-track {
-        animation: marquee-movie-text 15s linear infinite;
-        gap: 40vw;
+        animation: marquee-movie-text 50s linear infinite;
     }
     .marquee-wrapper-header {
         margin-top: 1rem;
     }
-    .marquee-text{
-    width: 92vw;
-    }
-    .marquee-close-button {
-    right: 1.2rem;
+    .marquee-text-track p {
+        margin: 0 2rem 0 2rem;      
     }
     @keyframes marquee-movie-text {
     to {
-        transform: translate(-47%);
+        transform: translate(-50%);
     }
 }
 }

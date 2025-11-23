@@ -18,5 +18,6 @@
             <p class="footerLogo">KIN/FORMA</p>
         </footer>
         <script src="/assets/script.js"></script>
+        <script src="/assets/marquee-text.js"></script>
     </body>
 </html>

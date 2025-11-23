@@ -11,17 +11,19 @@
 
 <body>
     <header>
-        <section class="marquee-wrapper-header">
-            <button class="marquee-close-button"><img src="/assets/icons/x-icon.png"></button>
-            <div class="marquee-text">
-                <div class="marquee-text-track">
-                    <p>MISSA INTE CHANSEN LÄMNA DIN E-POST ADRESS</p>
-                    <p aria-hidden="true">MISSA INTE CHANSEN LÄMNA DIN E-POST ADRESS</p>
-                    <p aria-hidden="true">MISSA INTE CHANSEN LÄMNA DIN E-POST ADRESS</p>
-                    <p aria-hidden="true">MISSA INTE CHANSEN LÄMNA DIN E-POST ADRESS</p>
-                </div>
+    <section class="marquee-wrapper-header">
+        <button class="marquee-pauseButton"></button>
+        <div class="marquee-text">
+            <div class="marquee-text-track">
+                <p>MISSA INTE CHANSEN LÄMNA DIN E-POST ADRESS</p>
+                <p aria-hidden="true">MISSA INTE CHANSEN LÄMNA DIN E-POST ADRESS</p>
+                <p aria-hidden="true">MISSA INTE CHANSEN LÄMNA DIN E-POST ADRESS</p>
+                <p aria-hidden="true">MISSA INTE CHANSEN LÄMNA DIN E-POST ADRESS</p>
             </div>
-        </section>
+        </div>
+        <button class="marquee-close-button"></button>
+    </section>
+    
         <h1 id="siteTitle">KIN/FORMA</h1>
         <p id="headerText">Framtidens mode, idag</p>
     </header>
