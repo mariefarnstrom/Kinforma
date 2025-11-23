@@ -21,8 +21,15 @@
     .productPictures div {
         width: calc(50% - 0.5rem);
         aspect-ratio: 632/412;
+    }
 }
-    
+
+/* material info */
+
+@media screen and (min-width: 800px) {
+    .materialInfo{
+        display: none;
+    }
 }
 
 /* configurator */
