@@ -15,7 +15,7 @@ require __DIR__ . '/header.php';
         <video class="video" autoplay muted loop src="assets/videos/grass.mp4"></video>
         <button class="pauseButton" id="button1"><img src="assets/icons/pause.png"></button>
     </article>
-    <article>
+    <article class="catigoryContainer">
         <h1 id="categoriesHeading">Utforska våra produkter</h1>
         <section class="productPictures">
             <div>
@@ -34,8 +34,8 @@ require __DIR__ . '/header.php';
         </section>
     </article>
     <section class="materialInfo">
-        <h2>Kin/form techmaterial</h2>
-        <p>Lite information om techmaterialet/ textilen som vi använder i våra kläder och varför det är bäst! Gortex, magnetiska sömmar - all dessa saker och något som visar det.</p>
+        <h1>VI VÄVER FRAMTIDEN</h1>
+        <p>Kin tech/material är utvecklad med fem lager som skyddar och håller. Med våra epd-noder kan du lätt bevara din saker </p>
     </section>
     <article class="materialVideo">
         <video class="video" autoplay muted loop src="assets/videos/drillAnimation.mov"></video>
