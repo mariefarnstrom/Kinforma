@@ -87,11 +87,11 @@ require __DIR__ . '/header.php';
     </article>
        <form class="customizeContainer" action="">
             <b>
-                Namnge din KINF/FORM design:
+                Namnge din KINF/FORM design
             </b>
             <input type="text" name="text" placeholder="ex. Min KIN/FORM väska*" id="">
             <b>
-                E-post:
+                E-post
             </b>
             <input type="email" name="email" placeholder="E-postadress*" id="">
             <button class="Sparabutton"> Spara ditt design </button>
@@ -115,6 +115,7 @@ require __DIR__ . '/header.php';
         </section>
     </section>
     </div>
+    <div class="dividedSection">
     <div class="inputContainer">
         <div class="inputMessage">
         <b>
@@ -133,7 +134,7 @@ require __DIR__ . '/header.php';
         <video class="video" id="bonfireVideo" autoplay muted loop src="assets/videos/bonfire.mp4"></video>
         <button class="pauseButton"><img src="assets/icons/pause.png"></button>
     </article>
-
+    </div>
 </main>
 <?php
 require __DIR__ . '/footer.php';
