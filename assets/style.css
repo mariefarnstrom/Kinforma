@@ -24,12 +24,6 @@
     font-size: 16px;
 }
 
-h1 {
-    font-family: var(--main-font);
-    font-size: 1.5rem;
-    font-weight: 700;
-}
-
 header {
     width: 100vw;
     height: 20vh;
@@ -75,7 +69,7 @@ p {
 
 h1 {
     font-family: var(--main-font);
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 700;
 }
 
@@ -210,6 +204,7 @@ h1 {
     width: 100%;
     text-align: center;
     background-color: var(--light-container-color);
+    padding: 0.5rem;
 }
 
 #dinStilHeading {
@@ -351,7 +346,7 @@ h1 {
     backdrop-filter: blur(20px);
     background-color: var(--dark-container-color);
     width: 100vw;
-    height: 42px;
+    height: 40px;
     padding: 0 0.5rem; 
 }
 
@@ -367,6 +362,9 @@ h1 {
     flex: 1; 
     overflow: hidden; 
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .marquee-text-track {
@@ -378,6 +376,8 @@ h1 {
 .marquee-text-track p {
     display: inline-block;
     margin: 0 15rem 0 2rem;      
+    font-size: 0.75rem;
+    font-weight: 400; 
 }
 
 @keyframes marquee-move {

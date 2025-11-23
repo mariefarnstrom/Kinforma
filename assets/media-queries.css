@@ -38,6 +38,7 @@
 
     #productTypeSelection {
         background-color: var(--dark-container-color);
+        padding: 0;
     }   
     #config {
         display: flex;
@@ -106,18 +107,18 @@
 
 @media screen and (min-width: 800px) {
     .marquee-text-track {
-        animation: marquee-movie-text 50s linear infinite;
+        animation: marquee-movie-text 30s linear infinite;
     }
     .marquee-wrapper-header {
         margin-top: 1rem;
     }
     .marquee-text-track p {
-        margin: 0 2rem 0 2rem;      
+        margin: 0 10rem 0 2rem;      
     }
     @keyframes marquee-movie-text {
-    to {
-        transform: translate(-50%);
-    }
+        to {
+            transform: translate(-25%);
+        }
 }
 }
 
