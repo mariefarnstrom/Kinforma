@@ -123,7 +123,7 @@ h1{
 }
 
 .pauseButton.playing {
-    background-image: url('/assets/icons/play.png');
+    background-image: url('icons/play.png');
     background-size: contain;
 }
 
