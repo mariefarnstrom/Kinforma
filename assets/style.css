@@ -1,6 +1,6 @@
 /* ROOT */
 
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Orbitron:wght@f00..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Orbitron:wght@400..900&display=swap');
 
 :root {
     --main-font: "IBM Plex Sans", sans-serif;
@@ -25,8 +25,7 @@
 }
 
 header {
-    width: 100vw;
-    height: 20vh;
+    width: 100vw;  
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -39,7 +38,7 @@ header {
     font-size: 2.5rem;
     color: var(--light-font-color);
     font-weight: 300;
-    margin-top: 5.0625rem;
+    margin-top: 1rem;
 }
 
 #headerText {
@@ -339,7 +338,7 @@ h1 {
 
 .marquee-wrapper-header,
 .marquee-wrapper {
-    position: relative;
+    position: absolute;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -348,10 +347,6 @@ h1 {
     width: 100vw;
     height: 40px;
     padding: 0 0.5rem; 
-}
-
-.marquee-wrapper-header {
-    margin-top: 2.5rem;
 }
 
 .marquee-wrapper {
