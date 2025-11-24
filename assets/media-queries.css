@@ -95,11 +95,9 @@
 /* footer video */
 
 @media screen and (min-width: 800px) {
-    @keyframes marquee-movie-text {
-    to {
-        transform: translate(-50%);
+    .lastVideo {
+        height: 75vh;
     }
-}
 }
 
 /* marquee */

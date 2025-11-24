@@ -131,7 +131,7 @@ require __DIR__ . '/header.php';
         </form>
     </div>
     <article class="lastVideo">
-        <video class="video" id="bonfireVideo" autoplay muted loop src="assets/videos/bonfire.mp4"></video>
+        <video class="video" id="turntable" autoplay muted loop src="assets/videos/jacket_animation_footer.mp4"></video>
         <button class="pauseButton"><img src="assets/icons/pause.png"></button>
     </article>
     </div>
