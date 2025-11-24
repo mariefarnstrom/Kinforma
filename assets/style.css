@@ -50,7 +50,7 @@ header {
 }
 
 main {
-    width: 100vw;
+    width: 100%;
 }
 
 /* Typography */
@@ -91,7 +91,7 @@ h1 {
 
 /* hero */
 .hero {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     position: relative;
 }
@@ -136,7 +136,7 @@ h1 {
 }
 
 .productPictures {
-    width: 100vw;
+    width: 100%;
     display: flex;
     gap: 0.5rem;
     flex-wrap: wrap;
@@ -180,7 +180,7 @@ h1 {
 
 /* material video */
 .materialVideo {
-    width: 100vw;
+    width: 100%;
     height: 80vh;
     position: relative;
 }
@@ -316,7 +316,7 @@ h1 {
 
 /* human image */
 .fullScreenImage {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     aspect-ratio: 1/2;
 }
@@ -331,7 +331,7 @@ h1 {
 
 .fullScreenImage-marquee-container {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     position: relative;
     text-align: center;
 }
@@ -344,7 +344,7 @@ h1 {
     justify-content: space-between;
     backdrop-filter: blur(20px);
     background-color: var(--dark-container-color);
-    width: 100vw;
+    width: 100%;
     height: 40px;
     padding: 0 0.5rem; 
 }
@@ -409,7 +409,7 @@ h1 {
 
 /* footer video */
 .lastVideo {
-    width: 100vw;
+    width: 100%;
     height: 60vh;
     aspect-ratio: 1;
     position: relative;
