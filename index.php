@@ -54,7 +54,7 @@ require __DIR__ . '/header.php';
     <!-- configurator -->
     <article class="configurator">
         <div id="productTypeSelection">
-            <h1 id="dinStilHeading">Din stil, Ditt val</h1>
+            <h1 id="dinStilHeading">Din stil, ditt val</h1>
             <p>Designa dina egna KIN/FORM saker. Skapa det som du gillar bäst.</p>
             <div id="productsToConfigurate">
                 <div>
