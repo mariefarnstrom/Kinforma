@@ -11,24 +11,40 @@
 
 <body>
     <header>
-    <section class="marquee-wrapper-header">
-        <button class="marquee-pauseButton"></button>
-        <div class="marquee-text">
-            <div class="marquee-text-track">
-                <p>MISSA INTE CHANSEN LÄMNA DIN E-POST ADRESS</p>
-                <p aria-hidden="true">MISSA INTE CHANSEN LÄMNA DIN E-POST ADRESS</p>
-                <p aria-hidden="true">MISSA INTE CHANSEN LÄMNA DIN E-POST ADRESS</p>
-                <p aria-hidden="true">MISSA INTE CHANSEN LÄMNA DIN E-POST ADRESS</p>
+        <section class="marquee-wrapper-header">
+            <button class="marquee-pauseButton"></button>
+            <div class="marquee-text">
+                <div class="marquee-text-track">
+                    <p>MISSA INTE CHANSEN LÄMNA DIN E-POST ADRESS</p>
+                    <p aria-hidden="true">MISSA INTE CHANSEN LÄMNA DIN E-POST ADRESS</p>
+                    <p aria-hidden="true">MISSA INTE CHANSEN LÄMNA DIN E-POST ADRESS</p>
+                        <p aria-hidden="true">MISSA INTE CHANSEN LÄMNA DIN E-POST ADRESS</p>
+                </div>
             </div>
-        </div>
-        <button class="marquee-close-button"></button>
-        
-    </section>
-    <div class="desktopNavbar">
-        <p class="siteTitle">KIN/FORMA</p><div class="desktopNavbarContainer"><p>KLÄDER</p><p>BEAUTY</p><p>ACCESOARER</p><p>MERCH</p> </div> <div class="naviconContainer"><img src="/assets/images/search-icon.png" alt="search-icon"><img src="/assets/images/profile-icon.png" alt="profile-icon"><img src="/assets/images/shop-icon.png" alt="shop-icon"></div>
-    </div>
-    
-    
-        <h1 id="siteTitle">KIN/FORMA</h1>
-        <p id="headerText">Framtidens mode, idag</p>
+            <button class="marquee-close-button"></button>
+        </section>
+        <nav class="navigationBar">
+            <a><img src="assets/icons/search.png"></a>
+            <a><img src="assets/icons/profile.png"></a>
+            <a><img src="assets/icons/shop.png"></a>
+            <a><img src="assets/icons/menu.png"></a>
+        </nav>
+        <section class="stickyNavbarContainer">
+            <section class="stickyNavbar">
+                <div class="desktopNavbar">
+                    <p class="siteTitle">KIN/FORMA</p>
+                    <div class="desktopNavbarContainer">
+                        <p>KLÄDER</p>
+                        <p>BEAUTY</p>
+                        <p>ACCESOARER</p>
+                        <p>MERCH</p> 
+                    </div> 
+                    <div class="naviconContainer">
+                        <img src="/assets/images/search-icon.png" alt="search-icon">
+                        <img src="/assets/images/profile-icon.png" alt="profile-icon">
+                        <img src="/assets/images/shop-icon.png" alt="shop-icon">
+                    </div>
+                </div>
+            </section>
+        </section>
     </header>

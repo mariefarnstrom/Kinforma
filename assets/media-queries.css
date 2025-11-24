@@ -154,11 +154,45 @@
         padding-bottom: 2rem;
     }
 }
+
+
 /* Header-Navigationbar and Input */
 
 @media  screen and (min-width: 600px){
- .navigationBar {
-    display: none;
+    .navigationBar {
+        display: none;
+    }
+    .dividedSection{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .inputContainer{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        width: 50%;
+        padding: 7rem;
+    }
+    .inputMessage b{
+        display: flex;
+        justify-self: center;
+    }
+    .inputMessage p{
+        display: flex;
+        justify-self: center;
+    }
+    .lastVideo{
+        width: 50%;
+    }
+    .Nyhetsform input {
+        width: 100%;
+    }
+    .customizeContainer{
+        align-items: center;
+    }
+    .customizeContainer input{
+        width: 40%;
     }
 #button1 {
     bottom: 1rem;
@@ -203,8 +237,7 @@
 
 }
 @media  screen and (max-width: 720px){
- .desktopNavbar {
-    display: none;
+    .desktopNavbar {
+        display: none;
     }
-   
 }
