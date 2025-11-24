@@ -338,7 +338,7 @@ h1 {
 
 .marquee-wrapper-header,
 .marquee-wrapper {
-    position: absolute;
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -351,6 +351,7 @@ h1 {
 
 .marquee-wrapper {
     bottom: 0;
+    position: absolute;
 }
 
 .marquee-text {
