@@ -4,12 +4,15 @@ require __DIR__ . '/header.php';
 ?>
 
     <main>
-        <h1 id="siteTitle">KIN/FORMA</h1>
-        <p id="headerText">Framtidens mode, idag</p>
-        <article class="hero">
-            <video class="video" autoplay muted loop src="assets/videos/grass.mp4"></video>
-            <button class="pauseButton" id="button1"><img src="assets/icons/pause.png"></button>
-        </article>
+        <section class="heroVideoText">
+            <!-- fix text not apearing on hero -->
+            <h1 id="siteTitle">KIN/FORMA</h1>
+            <p id="headerText">Framtidens mode, idag</p>
+            <article class="hero">
+                <video class="video" autoplay muted loop src="assets/videos/grass.mp4"></video>
+                <button class="pauseButton" id="button1"><img src="assets/icons/pause.png"></button>
+            </article>
+        </section>
         <article class="catigoryContainer">
             <h1 id="categoriesHeading">Utforska våra produkter</h1>
             <section class="productPictures">
@@ -55,8 +58,9 @@ require __DIR__ . '/header.php';
                         <img id="bagImage" src="assets/images/backpack-small.png">
                         <h4>TECH VÄSKA</h4>
                     </div>
-                    <div>
-                        <img src="assets/images/jacka.png">
+                    <div class=""> 
+                        <!-- resize img for jacket -->
+                        <img src="assets/images/grayJacket.png">
                         <h4>TECH JACKA</h4>
                     </div>
                 </div>
