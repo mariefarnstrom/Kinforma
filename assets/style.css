@@ -25,7 +25,7 @@
 }
 
 header {
-    width: 100vw;  
+    width: 100%;  
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -280,6 +280,8 @@ h1 {
 
 #productInfo {
     width: 16.33868625rem;
+    font-size: 1.1rem;
+    font-weight: 400;
 }
 
 #colors {
@@ -338,7 +340,7 @@ h1 {
 
 .marquee-wrapper-header,
 .marquee-wrapper {
-    position: relative;
+    position: absolute;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -351,7 +353,6 @@ h1 {
 
 .marquee-wrapper {
     bottom: 0;
-    position: absolute;
 }
 
 .marquee-text {
@@ -457,6 +458,7 @@ h1 {
 .customizeContainer b {
     margin: 1rem;
     margin-top: 0;
+    margin-bottom: 0.5rem;
 }
 .customizeContainer input {
     margin: 1rem;
@@ -470,6 +472,7 @@ h1 {
     border: 0;
     background-color: black;
     color: white;
+    font-weight: 700;
     width: 10rem;
     margin: 1rem;
     padding: 0.5rem;
