@@ -30,7 +30,7 @@ header {
     display: flex;
     flex-direction: column;
     position: absolute;
-    z-index: 1;
+    z-index: 4;
 }
 
 
@@ -93,16 +93,58 @@ h1 {
     backdrop-filter: blur(20px);
 }
 
+.desktopNavbar{
+    display: flex;
+    background-color: var(--dark-container-color);
+    align-items: center;
+    justify-content: space-evenly;
+}
+.desktopNavbarContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 50rem;
+}
+.desktopNavbarContainer p{
+    margin: 1rem;
+}
+.stickyNavbarContainer{
+    height: 53.1rem;
+}
+.stickyNavbar{
+    position: sticky;
+    top: 0;
+}
+.naviconContainer{
+    margin-right: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.naviconContainer img{
+    margin-left: 2rem;
+}
+
 /* hero */
 .heroVideoText{
+    margin-top: 5rem;
+    position: absolute;
+    z-index: 3;
+    padding-top: 1rem;
+}
 
+.heroNavbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    height: 44rem;
 }
 
 .hero {
     width: 100%;
     height: 100vh;
+    z-index: 1;
 }
-
 
 .hero video {
     width: 100%;
@@ -487,33 +529,4 @@ margin-top: 3rem;
     padding: 0.5rem;
     align-self: center;
     justify-content: center;
-}
-.desktopNavbar{
-    display: flex;
-    background-color: var(--dark-container-color);
-    align-items: center;
-    justify-content: space-evenly;
-}
-.desktopNavbarContainer{
-    display: flex;
-    justify-content: space-between;
-    width: 50rem;
-}
-.desktopNavbarContainer p{
-    margin: 1rem;
-}
-.stickyNavbarContainer{
-    height: 53.1rem;
-}
-.stickyNavbar{
-    position: sticky;
-    top: 0;
-}
-.naviconContainer{
-    margin-right: 1rem;
-    display: flex;
-    justify-content: space-between;
-}
-.naviconContainer img{
-    margin-left: 2rem;
 }

@@ -4,10 +4,11 @@ require __DIR__ . '/header.php';
 ?>
 
     <main>
-        <section class="heroVideoText">
-            <!-- fix text not apearing on hero -->
-            <h1 id="siteTitle">KIN/FORMA</h1>
-            <p id="headerText">Framtidens mode, idag</p>
+        <section class="heroNavbar">
+            <section class="heroVideoText">
+                <h1 id="siteTitle">KIN/FORMA</h1>
+                <p id="headerText">Framtidens mode, idag</p>
+            </section>
             <article class="hero">
                 <video class="video" autoplay muted loop src="assets/videos/grass.mp4"></video>
                 <button class="pauseButton" id="button1"><img src="assets/icons/pause.png"></button>
@@ -60,7 +61,7 @@ require __DIR__ . '/header.php';
                     </div>
                     <div class=""> 
                         <!-- resize img for jacket -->
-                        <img src="assets/images/grayJacket.png">
+                        <img src="assets/images/grayJacket.png" alt="A front-facing gray jacket with two large pockets on the left side.">
                         <h4>TECH JACKA</h4>
                     </div>
                 </div>
