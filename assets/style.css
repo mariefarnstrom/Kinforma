@@ -1,6 +1,6 @@
 /* ROOT */
 
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Orbitron:wght@400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Orbitron:wght@f00..900&display=swap");
 
 :root {
     --main-font: "IBM Plex Sans", sans-serif;
@@ -339,7 +339,7 @@ h1 {
 
 .marquee-wrapper-header,
 .marquee-wrapper {
-    position: absolute;
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -479,4 +479,29 @@ h1 {
     padding: 0.5rem;
     align-self: center;
     justify-content: center;
+}
+.desktopNavbar{
+    display: flex;
+    background-color: var(--dark-container-color);
+    position: sticky;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.desktopNavbarContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 50rem;
+
+}
+.desktopNavbarContainer p{
+    margin: 1rem;
+
+}
+.naviconContainer{
+    margin-right: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.naviconContainer img{
+    margin-left: 2rem;
 }
