@@ -106,9 +106,6 @@
     .marquee-text-track {
         animation: marquee-movie-text 30s linear infinite;
     }
-    .marquee-wrapper-header {
-        margin-top: 1rem;
-    }
     .marquee-text-track p {
         margin: 0 10rem 0 2rem;      
     }
@@ -116,7 +113,7 @@
         to {
             transform: translate(-25%);
         }
-}
+    }
 }
 
 

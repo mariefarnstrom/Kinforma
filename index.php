@@ -3,18 +3,19 @@
 require __DIR__ . '/header.php';
 ?>
 
-<nav class="navigationBar">
-    <a><img src="assets/icons/search.png"></a>
-    <a><img src="assets/icons/profile.png"></a>
-    <a><img src="assets/icons/shop.png"></a>
-    <a><img src="assets/icons/menu.png"></a>
-</nav>
 <main>
-    
-    <article class="hero">
-        <video class="video" autoplay muted loop src="assets/videos/grass.mp4"></video>
-        <button class="pauseButton" id="button1"><img src="assets/icons/pause.png"></button>
-    </article>
+    <section>
+        <nav class="navigationBar">
+            <a><img src="assets/icons/search.png"></a>
+            <a><img src="assets/icons/profile.png"></a>
+            <a><img src="assets/icons/shop.png"></a>
+            <a><img src="assets/icons/menu.png"></a>
+        </nav>
+        <article class="hero">
+                <video class="video" autoplay muted loop src="assets/videos/grass.mp4"></video>
+            <button class="pauseButton" id="button1"><img src="assets/icons/pause.png"></button>
+        </article>
+    </section>
     <article class="catigoryContainer">
         <h1 id="categoriesHeading">Utforska våra produkter</h1>
         <section class="productPictures">
@@ -98,7 +99,6 @@ require __DIR__ . '/header.php';
           </form>
     <section class="fullScreenImage-marquee-container">
         <section class="fullScreenImage">
-       
             <img class="backpackersImage" src="assets/images/hikers.png">
         </section>
         <section class="marquee-wrapper">
