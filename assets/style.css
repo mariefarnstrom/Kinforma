@@ -398,15 +398,15 @@ h1 {
 }
 
 .marquee-pauseButton {
-    background-image: url("/assets/icons/dark-pause.png");
+    background-image: url("icons/dark-pause.png");
 }
 
 .marquee-pauseButton.paused {
-    background-image: url("/assets/icons/dark-play.jpg");
+    background-image: url("icons/dark-play.jpg");
 }
 
 .marquee-close-button {
-    background-image: url("/assets/icons/x-icon.png");
+    background-image: url("icons/x-icon.png");
 }
 
 

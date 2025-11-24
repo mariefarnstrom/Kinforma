@@ -160,6 +160,9 @@
  .navigationBar {
     display: none;
     }
+#button1 {
+    bottom: 1rem;
+}
     
 .dividedSection{
     display: flex;

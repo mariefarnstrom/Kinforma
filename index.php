@@ -70,7 +70,7 @@ require __DIR__ . '/header.php';
         <div id="config">
             <div class="variantHolder">
                 <img id="productVariant" src="assets/images/circle-red.png" /><br />
-                <p id="productInfo">KIN/FORM BAG är omsorgsfyllt utvecklad med KIN Tech/ material</p>
+                <p id="productInfo">KIN/FORM BAG är omsorgsfullt utvecklad med KIN Tech/ material</p>
             </div>
             <section class="pockets">
                 <div><img id="model1" class="modelButton" src="assets/images/switchable-item.png" data-model="rectangle"></div>
