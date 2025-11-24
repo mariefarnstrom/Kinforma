@@ -25,7 +25,7 @@
 }
 
 header {
-    width: 100vw;  
+    width: 100%;  
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -279,7 +279,6 @@ margin-top: 3rem;
 #productsToConfigurate div {
     height: 5.5rem;
     width: 5.5rem;
-    background-color: grey;
     margin: 0.57rem 1.1875rem;
 }
 
@@ -287,15 +286,18 @@ margin-top: 3rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 #bagImage {
-    border-bottom: 2px solid var(--dark-container-color);
+    border-bottom: 2px solid var(--dark-font-color);
 }
 
 #productsToConfigurate h4 {
     font-family: var(--main-font);
     font-size: 0.75rem;
+    font-weight: 400;
 }
 
 .variantHolder {
@@ -317,13 +319,12 @@ margin-top: 3rem;
 }
 
 .pockets div {
-    background-color: grey;
     height: 4rem;
     width: 6.0625rem;
 }
 
 .modelButton.active {
-    border-bottom: 2px solid var(--dark-container-color);
+    border-bottom: 2px solid var(--dark-font-color);
 }
 
 .pockets div img {
@@ -334,6 +335,8 @@ margin-top: 3rem;
 
 #productInfo {
     width: 16.33868625rem;
+    font-size: 1.1rem;
+    font-weight: 400;
 }
 
 #colors {
@@ -349,7 +352,7 @@ margin-top: 3rem;
 }
 
 .colorButton.active {
-    border-bottom: 2px solid var(--dark-container-color);
+    border-bottom: 2px solid var(--dark-font-color);
 }
 
 #redButton {
@@ -392,7 +395,7 @@ margin-top: 3rem;
 
 .marquee-wrapper-header,
 .marquee-wrapper {
-    position: relative;
+    position: absolute;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -405,7 +408,6 @@ margin-top: 3rem;
 
 .marquee-wrapper {
     bottom: 0;
-    position: absolute;
 }
 
 .marquee-text {
@@ -450,15 +452,15 @@ margin-top: 3rem;
 }
 
 .marquee-pauseButton {
-    background-image: url("/assets/icons/dark-pause.png");
+    background-image: url("icons/dark-pause.png");
 }
 
 .marquee-pauseButton.paused {
-    background-image: url("/assets/icons/dark-play.jpg");
+    background-image: url("icons/dark-play.jpg");
 }
 
 .marquee-close-button {
-    background-image: url("/assets/icons/x-icon.png");
+    background-image: url("icons/x-icon.png");
 }
 
 
@@ -499,6 +501,7 @@ margin-top: 3rem;
     width: 10rem;
     margin-top: 1rem;
     padding: 0.5rem;
+    font-weight: 700;
 }
 .Nyhetsbutton:hover {
     background-color: rgba(0, 0, 0, 0.866);
@@ -511,6 +514,7 @@ margin-top: 3rem;
 .customizeContainer b {
     margin: 1rem;
     margin-top: 0;
+    margin-bottom: 0.5rem;
 }
 .customizeContainer input {
     margin: 1rem;
@@ -524,6 +528,7 @@ margin-top: 3rem;
     border: 0;
     background-color: black;
     color: white;
+    font-weight: 700;
     width: 10rem;
     margin: 1rem;
     padding: 0.5rem;

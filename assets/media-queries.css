@@ -39,7 +39,14 @@
     #productTypeSelection {
         background-color: var(--dark-container-color);
         padding: 0;
-    }   
+    }
+    #productTypeSelection p {
+        font-size: 1.125rem;
+        font-weight: 500;
+    }
+    #productTypeSelection h1 {
+        font-size: 1.5rem;
+    }
     #config {
         display: flex;
     }
@@ -56,6 +63,10 @@
     .pockets {
         margin: 2rem 1rem 0 1rem;
         order: 3;
+    }
+    .pockets div {
+        height: 5.125rem;
+        width: 7rem;
     }
     .colorButton {
         height: 5rem;
@@ -183,6 +194,47 @@
     .customizeContainer input{
         width: 40%;
     }
+#button1 {
+    bottom: 1rem;
+}
+    
+.dividedSection{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.inputContainer{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding: 7rem;
+}
+#emailForm {
+    display: flex;
+    justify-content: center;
+}
+.inputMessage b{
+    display: flex;
+    margin-bottom: 0;
+    font-size: 1.125rem;
+}
+.inputMessage p{
+    display: flex;
+    justify-self: center;
+    font-size: 1rem;
+    
+}
+.lastVideo{
+    width: 50%;
+}
+.Nyhetsform input {
+    width: 100%;
+}
+.customizeContainer{
+    width: 30%;
+}
+
 }
 @media  screen and (max-width: 720px){
     .desktopNavbar {

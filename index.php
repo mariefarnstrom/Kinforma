@@ -83,6 +83,11 @@ require __DIR__ . '/header.php';
                 <div id="greenButton" class="colorButton" data-color="green"></div>
                 <div id="greyButton" class="colorButton" data-color="grey"></div>
             </div>
+        </div>
+        <div id="config">
+            <div class="variantHolder">
+                <img id="productVariant" src="assets/images/circle-red.png" /><br />
+                <p id="productInfo">KIN/FORM BAG är omsorgsfullt utvecklad med KIN Tech/ material</p>
             </div>
         </article>
         <form class="customizeContainer" action="">
@@ -114,25 +119,47 @@ require __DIR__ . '/header.php';
             </section>
         </section>
         </div>
-        <div class="dividedSection">
-        <div class="inputContainer">
-            <div class="inputMessage">
+    </article>
+    <article id="emailForm">
+       <form class="customizeContainer" action="">
             <b>
-                Gå aldrig miste en uppdatering
+                Namnge din KIN/FORM design:
             </b>
-            <p>
-                Var först att utrycka dig själv och visa din unika stil med KIN/FORMA.
-            </p>
+            <input type="text" name="text" placeholder="ex. Min KIN/FORM väska*" id="">
+            <b>
+                E-post:
+            </b>
+            <input type="email" name="email" placeholder="E-postadress*" id="">
+            <button class="Sparabutton"> Spara din design </button>
+          </form>
+    </article>
+    <section class="fullScreenImage-marquee-container">
+        <section class="fullScreenImage">
+            <img class="backpackersImage" src="assets/images/hikers.png">
+        </section>
+        <section class="marquee-wrapper">
+            <button class="marquee-pauseButton"></button>
+            <div class="marquee-text">
+                <div class="marquee-text-track">
+                    <p>MISSA INTE CHANSEN LÄMNA DIN E-POST ADRESS</p>
+                    <p aria-hidden="true">MISSA INTE CHANSEN LÄMNA DIN E-POST ADRESS</p>
+                    <p aria-hidden="true">MISSA INTE CHANSEN LÄMNA DIN E-POST ADRESS</p>
+                    <p aria-hidden="true">MISSA INTE CHANSEN LÄMNA DIN E-POST ADRESS</p>
+                </div>
             </div>
-            <form class="Nyhetsform" action="index.php">
-            <input type="email" name="Email" placeholder="E-postadress*" id="">
-            <button class="Nyhetsbutton" > Få vårt nyhetsbrev </button>
-            </form>
-        </div>
-        <article class="lastVideo">
-            <video class="video" id="turntable" autoplay muted loop src="assets/videos/jacket_animation_footer.mp4"></video>
-            <button class="pauseButton"><img src="assets/icons/pause.png"></button>
-        </article>
+            <button class="marquee-close-button"></button>
+        </section>
+    </section>
+    </div>
+    <div class="dividedSection">
+    <div class="inputContainer">
+        <div class="inputMessage">
+        <b>
+            Gå aldrig miste om en uppdatering
+        </b>
+        <p>
+            Var först att uttrycka dig själv och visa din unika stil med KIN/FORMA.
+        </p>
         </div>
     </main>
 <?php
