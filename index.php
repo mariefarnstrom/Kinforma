@@ -70,7 +70,7 @@ require __DIR__ . '/header.php';
         <div id="config">
             <div class="variantHolder">
                 <img id="productVariant" src="assets/images/circle-red.png" /><br />
-                <p id="productInfo">KIN/FORM BAG är omsorgsfyllt utvecklad med KIN Tech/material</p>
+                <p id="productInfo">KIN/FORM BAG är omsorgsfyllt utvecklad med KIN Tech/ material</p>
             </div>
             <section class="pockets">
                 <div><img id="model1" class="modelButton" src="assets/images/switchable-item.png" data-model="rectangle"></div>
@@ -86,17 +86,19 @@ require __DIR__ . '/header.php';
         </div>
         </div>
     </article>
+    <article id="emailForm">
        <form class="customizeContainer" action="">
             <b>
-                Namnge din KINF/FORM design
+                Namnge din KIN/FORM design:
             </b>
             <input type="text" name="text" placeholder="ex. Min KIN/FORM väska*" id="">
             <b>
-                E-post
+                E-post:
             </b>
             <input type="email" name="email" placeholder="E-postadress*" id="">
-            <button class="Sparabutton"> Spara ditt design </button>
+            <button class="Sparabutton"> Spara din design </button>
           </form>
+    </article>
     <section class="fullScreenImage-marquee-container">
         <section class="fullScreenImage">
             <img class="backpackersImage" src="assets/images/hikers.png">
@@ -119,10 +121,10 @@ require __DIR__ . '/header.php';
     <div class="inputContainer">
         <div class="inputMessage">
         <b>
-            Gå aldrig miste en uppdatering
+            Gå aldrig miste om en uppdatering
         </b>
         <p>
-            Var först att utrycka dig själv och visa din unika stil med KIN/FORMA.
+            Var först att uttrycka dig själv och visa din unika stil med KIN/FORMA.
         </p>
         </div>
         <form class="Nyhetsform" action="index.php">
