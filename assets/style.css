@@ -266,8 +266,16 @@ h1 {
     margin-bottom: 1rem;
 }
 
-#bagImage {
+#bagImage{
     border-bottom: 2px solid var(--dark-font-color);
+    height: 100%;
+    width: 100%;
+}
+
+#jacketImage {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 #productsToConfigurate h4 {
@@ -332,19 +340,15 @@ h1 {
 }
 
 #redButton {
-    background-color: red;
-}
-
-#blueButton {
-    background-color: blue;
+    background-color: #E6997B;
 }
 
 #greenButton {
-    background-color: green;
+    background-color: #818D6B;
 }
 
 #greyButton {
-    background-color: grey;
+    background-color: #737373;
 }
 
 /* human image */

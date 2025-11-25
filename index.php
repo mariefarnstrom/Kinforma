@@ -19,20 +19,23 @@ require __DIR__ . '/header.php';
     <article class="catigoryContainer">
         <h1 id="categoriesHeading">Utforska våra produkter</h1>
         <section class="productPictures">
-            <div>
-                <h3>Kläder</h3>
-                <img src="assets/images/clothes.png">
-            </div>
-            <div>
-                <h3>Accessoarer</h3>
-            </div>
-            <div>
-                <h3>Beauty</h3>
-            </div>
-            <div>
-                <h3>Merch</h3>
-            </div>
-        </section>
+        <div>
+            <h3>Kläder</h3>
+            <img src="assets/images/jacket_katalog_green.png">
+        </div>
+        <div>
+            <h3>Accessoarer</h3>
+            <img src="assets/images/bag_katalog_red.png">
+        </div>
+        <div>
+            <h3>Beauty</h3>
+            <img src="assets/images/ring_katalog_prew.png">
+        </div>
+        <div>
+            <h3>Merch</h3>
+            <img src="assets/images/hook_katalog_prew.png">
+        </div>
+    </section>
     </article>
     <section class="materialInfo">
         <h1>VI VÄVER FRAMTIDEN</h1>
@@ -51,7 +54,7 @@ require __DIR__ . '/header.php';
     <!-- <button id="pauseBtn" class="video-btn">❚❚</button>
 </div> -->
 
-    <!-- configurator -->
+ <!-- configurator -->
     <article class="configurator">
         <div id="productTypeSelection">
             <h1 id="dinStilHeading">Din stil, ditt val</h1>
@@ -62,7 +65,7 @@ require __DIR__ . '/header.php';
                     <h4>TECH VÄSKA</h4>
                 </div>
                 <div>
-                    <img src="assets/images/jacka.png">
+                    <img id="jacketImage" src="assets/images/konfig_jacket_icon.png">
                     <h4>TECH JACKA</h4>
                 </div>
             </div>
@@ -73,17 +76,17 @@ require __DIR__ . '/header.php';
                 <p id="productInfo">KIN/FORM BAG är omsorgsfullt utvecklad med KIN Tech/ material</p>
             </div>
             <section class="pockets">
-                <div><img id="model1" class="modelButton" src="assets/images/switchable-item.png" data-model="rectangle"></div>
-                <div><img id="model2" class="modelButton" src="assets/images/switchable-item(1).png" data-model="circle"></div>
-                <div><img id="model3" class="modelButton" src="assets/images/switchable-item(2).png" data-model="star"></div>
-                <div><img id="model4" class="modelbutton" src="assets/images/switchable-item(3).png"></div>
+                <div><img id="model1" class="modelButton" src="assets/images/switchable-item.png" data-model="model1"></div>
+                <div><img id="model2" class="modelButton" src="assets/images/switchable-item(1).png" data-model="model2"></div>
+                <div><img id="model3" class="modelButton" src="assets/images/switchable-item(2).png" data-model="model3"></div>
+                <div><img id="model4" class="modelbutton" src="assets/images/switchable-item(3).png" data-model="model4"></div>
             </section>
-        <!-- Color buttons -->
-        <div id="colors">
-            <div id="redButton" class="colorButton" data-color="red"></div>
-            <div id="greenButton" class="colorButton" data-color="green"></div>
-            <div id="greyButton" class="colorButton" data-color="grey"></div>
-        </div>
+            <!-- Color buttons -->
+            <div id="colors">
+                <div id="redButton" class="colorButton" data-color="brown"></div>
+                <div id="greenButton" class="colorButton" data-color="green"></div>
+                <div id="greyButton" class="colorButton" data-color="grey"></div>
+            </div>
         </div>
     </article>
     <article id="emailForm">
