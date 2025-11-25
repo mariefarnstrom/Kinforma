@@ -16,7 +16,7 @@ btn.forEach((button, i) => {
 });
       
 // configurator
-let currentModel = "circle";
+let currentModel = "model1";
 let currentColor = "red";
 
 function update() {

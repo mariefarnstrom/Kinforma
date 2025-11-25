@@ -175,9 +175,6 @@
 /* Header-Navigationbar and Input */
 
 @media  screen and (min-width: 600px){
- .navigationBar {
-    display: none;
-    }
 #button1 {
     bottom: 1rem;
 }
@@ -218,6 +215,11 @@
 }
 @media  screen and (max-width: 720px){
  .desktopNavbar {
+    display: none;
+    }
+}
+@media screen and (min-width: 720px) {
+ .navigationBar {
     display: none;
     }
 }

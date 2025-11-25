@@ -53,7 +53,7 @@ require __DIR__ . '/header.php';
             <p>Designa dina egna KIN/FORM saker. Skapa det som du gillar bäst.</p>
             <div id="productsToConfigurate">
                 <div>
-                    <img id="bagImage" src="assets/images/bag_katalog_green.png">
+                    <img id="bagImage" src="assets/images/konfig_icon_bag.png">
                     <h4>TECH VÄSKA</h4>
                 </div>
                 <div>
@@ -64,20 +64,20 @@ require __DIR__ . '/header.php';
         </div>
         <div id="config">
             <div class="variantHolder">
-                <img id="productVariant" src="assets/images/circle-red.png" /><br />
+                <img id="productVariant" src="assets/images/model1-red.png" /><br />
                 <p id="productInfo">KIN/FORM BAG är omsorgsfullt utvecklad med KIN Tech/ material</p>
             </div>
             <section class="pockets">
                 <div><img id="model1" class="modelButton" src="assets/images/switchable-item.png" data-model="model1"></div>
                 <div><img id="model2" class="modelButton" src="assets/images/switchable-item(1).png" data-model="model2"></div>
                 <div><img id="model3" class="modelButton" src="assets/images/switchable-item(2).png" data-model="model3"></div>
-                <div><img id="model4" class="modelbutton" src="assets/images/switchable-item(3).png" data-model="model4"></div>
+                <div><img id="model4" class="modelButton" src="assets/images/switchable-item(3).png" data-model="model4"></div>
             </section>
             <!-- Color buttons -->
             <div id="colors">
-                <div id="redButton" class="colorButton" data-color="brown"></div>
+                <div id="blueButton" class="colorButton" data-color="blue"></div>
                 <div id="greenButton" class="colorButton" data-color="green"></div>
-                <div id="greyButton" class="colorButton" data-color="grey"></div>
+                <div id="redButton" class="colorButton" data-color="red"></div>
             </div>
         </div>
     </article>
