@@ -1,6 +1,13 @@
 <?php
 
+
+
 require __DIR__ . '/header.php';
+if (isset($_POST['email'], $_POST['text'])) {
+    $email = trim(htmlspecialchars($_POST['email']));
+    $text = trim(htmlspecialchars($_POST['text']));
+}
+
 ?>
 
 <nav class="navigationBar">
@@ -85,7 +92,7 @@ require __DIR__ . '/header.php';
         </div>
         </div>
     </article>
-       <form class="customizeContainer" action="">
+       <form class="customizeContainer" action="/index.php">
             <b>
                 Namnge din KINF/FORM design
             </b>
@@ -125,7 +132,7 @@ require __DIR__ . '/header.php';
             Var först att utrycka dig själv och visa din unika stil med KIN/FORMA.
         </p>
         </div>
-        <form class="Nyhetsform" action="index.php">
+        <form class="Nyhetsform" action="/index.php">
         <input type="email" name="Email" placeholder="E-postadress*" id="">
         <button class="Nyhetsbutton" > Få vårt nyhetsbrev </button>
         </form>
