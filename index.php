@@ -68,10 +68,10 @@ require __DIR__ . '/header.php';
                 <p id="productInfo">KIN/FORM BAG är omsorgsfullt utvecklad med KIN Tech/ material</p>
             </div>
             <section class="pockets">
-                <div><img id="model1" class="modelButton" src="assets/images/switchable-item.png" data-model="model1"></div>
-                <div><img id="model2" class="modelButton" src="assets/images/switchable-item(1).png" data-model="model2"></div>
-                <div><img id="model3" class="modelButton" src="assets/images/switchable-item(2).png" data-model="model3"></div>
-                <div><img id="model4" class="modelButton" src="assets/images/switchable-item(3).png" data-model="model4"></div>
+                <div><img id="model1" class="modelButton" src="assets/images/pocket_v1.png" data-model="model1"></div>
+                <div><img id="model2" class="modelButton" src="assets/images/pocket_v2.png" data-model="model2"></div>
+                <div><img id="model3" class="modelButton" src="assets/images/pocket_v3.png" data-model="model3"></div>
+                <div><img id="model4" class="modelButton" src="assets/images/pocket_v4.png" data-model="model4"></div>
             </section>
             <!-- Color buttons -->
             <div id="colors">
