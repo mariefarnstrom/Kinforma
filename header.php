@@ -1,3 +1,9 @@
+<?php
+if (isset($_POST['email'], $_POST['text'])) {
+    $email = trim(htmlspecialchars($_POST['email']));
+    $text = trim(htmlspecialchars($_POST['text']));
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -25,7 +31,18 @@
         
     </section>
     <div class="desktopNavbar">
-        <p class="siteTitle">KIN/FORMA</p><div class="desktopNavbarContainer"><p>KLÄDER</p><p>BEAUTY</p><p>ACCESOARER</p><p>MERCH</p> </div> <div class="naviconContainer"><img src="/assets/images/search-icon.png" alt="search-icon"><img src="/assets/images/profile-icon.png" alt="profile-icon"><img src="/assets/images/shop-icon.png" alt="shop-icon"></div>
+        <p class="siteTitle">KIN/FORMA</p>
+        <div class="desktopNavbarContainer">
+            <p>KLÄDER</p>
+            <p>BEAUTY</p>
+            <p>ACCESOARER</p>
+            <p>MERCH</p>
+        </div>
+        <div class="naviconContainer">
+            <img src="assets/images/search-icon.png" alt="search-icon">
+            <img src="assets/images/profile-icon.png" alt="profile-icon">
+            <img src="assets/images/shop-icon.png" alt="shop-icon">
+        </div>
     </div>
     
     

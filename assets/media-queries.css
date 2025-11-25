@@ -124,7 +124,7 @@
 @media screen and (min-width: 900px) {
     .lastVideo {
         /* height: 75vh; */
-        width: 50%;
+        width: 50vw;
     }
     }
 
@@ -206,14 +206,13 @@
 }
 .inputMessage p{
     display: flex;
-    justify-self: center;
     font-size: 1rem;
 }
 .Nyhetsform input {
     width: 100%;
 }
 .customizeContainer{
-    width: 30%;
+    width: 22.5rem;
 }
 
 }

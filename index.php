@@ -87,7 +87,7 @@ require __DIR__ . '/header.php';
         </div>
     </article>
     <article id="emailForm">
-       <form class="customizeContainer" action="">
+       <form class="customizeContainer" action="" method="post">
             <b>
                 Namnge din KIN/FORM design:
             </b>
@@ -127,7 +127,7 @@ require __DIR__ . '/header.php';
             Var först att uttrycka dig själv och visa din unika stil med KIN/FORMA.
         </p>
         </div>
-        <form class="Nyhetsform" action="index.php">
+        <form class="Nyhetsform" action="index.php" method="post">
         <input type="email" name="Email" placeholder="E-postadress*" id="">
         <button class="Nyhetsbutton" > Få vårt nyhetsbrev </button>
         </form>

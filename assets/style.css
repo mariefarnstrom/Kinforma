@@ -34,6 +34,33 @@ header {
     background-color: var(--dark-background-color);
     height: 10rem;
 }
+.desktopNavbar{
+    display: flex;
+    color: var(--light-font-color);
+    background: rgba(255, 255, 255, 0.20);
+    backdrop-filter: blur(10px);
+    margin-top: 40px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.desktopNavbarContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 50rem;
+
+}
+.desktopNavbarContainer p{
+    margin: 1rem;
+
+}
+.naviconContainer{
+    margin-right: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.naviconContainer img{
+    margin-left: 2rem;
+}
 
 #siteTitle {
     font-family: var(--logo-font);
@@ -191,7 +218,7 @@ h1 {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: 91%;
+    object-position: 93%;
 }
 
 /* configurator */
@@ -348,8 +375,8 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    backdrop-filter: blur(20px);
-    background-color: var(--dark-container-color);
+    background: rgba(255, 255, 255, 0.20);
+    backdrop-filter: blur(10px);
     width: 100%;
     height: 40px;
     padding: 0 0.5rem; 
@@ -366,6 +393,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: var(--light-font-color);
 }
 
 .marquee-text-track {
@@ -483,28 +511,4 @@ h1 {
     align-self: center;
     justify-content: center;
 }
-.desktopNavbar{
-    display: flex;
-    background-color: var(--dark-container-color);
-    margin-top: 40px;
-    align-items: center;
-    justify-content: space-evenly;
-}
-.desktopNavbarContainer{
-    display: flex;
-    justify-content: space-between;
-    width: 50rem;
 
-}
-.desktopNavbarContainer p{
-    margin: 1rem;
-
-}
-.naviconContainer{
-    margin-right: 1rem;
-    display: flex;
-    justify-content: space-between;
-}
-.naviconContainer img{
-    margin-left: 2rem;
-}
