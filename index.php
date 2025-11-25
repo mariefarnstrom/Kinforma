@@ -29,11 +29,11 @@ require __DIR__ . '/header.php';
         </div>
         <div>
             <h3>Beauty</h3>
-            <img src="assets/images/ring_katalog_prew.png">
+            <img src="assets/images/Signetring.jpg">
         </div>
         <div>
             <h3>Merch</h3>
-            <img src="assets/images/hook_katalog_prew.png">
+            <img src="assets/images/Karbinhake.jpg">
         </div>
     </section>
     </article>
