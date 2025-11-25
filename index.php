@@ -12,7 +12,7 @@ require __DIR__ . '/header.php';
             <a><img src="assets/icons/menu.png"></a>
         </nav>
         <article class="hero">
-                <video class="video" autoplay muted loop src="assets/videos/grass.mp4"></video>
+                <video class="video" autoplay muted loop src="assets/videos/BACKPACK_ANIMATION_FINAL.mp4"></video>
             <button class="pauseButton" id="button1"><img src="assets/icons/pause.png"></button>
         </article>
     </section>
@@ -39,7 +39,7 @@ require __DIR__ . '/header.php';
         <p>Kin tech/material är utvecklad med fem lager som skyddar och håller. Med våra epd-noder kan du lätt bevara din saker </p>
     </section>
     <article class="materialVideo">
-        <video class="video" autoplay muted loop src="assets/videos/drillAnimation.mov"></video>
+        <video class="video" autoplay muted loop src="assets/videos/ANIMATION_KINTECHMATERIAL_FINAL.mp4"></video>
         <button class="pauseButton"><img src="assets/icons/pause.png"></button>
     </article>
     <!-- <div class="video-container">
