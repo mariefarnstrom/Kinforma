@@ -45,14 +45,6 @@ require __DIR__ . '/header.php';
         <video class="video" autoplay muted loop src="assets/videos/ANIMATION_KINTECHMATERIAL_FINAL.mp4"></video>
         <button class="pauseButton"><img src="assets/icons/pause.png"></button>
     </article>
-    <!-- <div class="video-container">
-    <video id="myVideo">
-        <source src="Drillanimation0001-0250.mov">
-    </video>
-
-     Your custom button (use your symbol here instead of ► or ❚❚) -->
-    <!-- <button id="pauseBtn" class="video-btn">❚❚</button>
-</div> -->
 
  <!-- configurator -->
     <article class="configurator">
@@ -61,7 +53,7 @@ require __DIR__ . '/header.php';
             <p>Designa dina egna KIN/FORM saker. Skapa det som du gillar bäst.</p>
             <div id="productsToConfigurate">
                 <div>
-                    <img id="bagImage" src="assets/images/backpack-small.png">
+                    <img id="bagImage" src="assets/images/bag_katalog_green.png">
                     <h4>TECH VÄSKA</h4>
                 </div>
                 <div>
@@ -104,7 +96,7 @@ require __DIR__ . '/header.php';
     </article>
     <section class="fullScreenImage-marquee-container">
         <section class="fullScreenImage">
-            <img class="backpackersImage" src="assets/images/hikers.png">
+            <img class="backpackersImage" src="assets/images/IMAGE_FOOTER.jpg">
         </section>
         <section class="marquee-wrapper">
             <button class="marquee-pauseButton"></button>
