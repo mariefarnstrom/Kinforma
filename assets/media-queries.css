@@ -42,9 +42,15 @@
     }
 }
 
-/* configurator */
+
 
 @media screen and (min-width: 600px) {
+
+    .materialVideo {
+        height: unset;
+    }
+
+    /* configurator */
 
     #productTypeSelection {
         background-color: var(--dark-container-color);
@@ -115,11 +121,13 @@
 
 /* footer video */
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 900px) {
     .lastVideo {
-        height: 75vh;
+        /* height: 75vh; */
+        width: 50%;
     }
-}
+    }
+
 
 /* marquee */
 
@@ -184,7 +192,8 @@
     flex-direction: column;
     justify-content: center;
     width: 50%;
-    padding: 7rem;
+    /* padding: 7rem; */
+    margin: 0 7.2rem;
 }
 #emailForm {
     display: flex;
@@ -199,10 +208,6 @@
     display: flex;
     justify-self: center;
     font-size: 1rem;
-    
-}
-.lastVideo{
-    width: 50%;
 }
 .Nyhetsform input {
     width: 100%;
