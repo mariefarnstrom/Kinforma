@@ -6,16 +6,16 @@ require __DIR__ . '/header.php';
 <main>
     <section>
         <nav class="navigationBar">
-            <a><img src="assets/icons/search.png"></a>
-            <a><img src="assets/icons/profile.png"></a>
-            <a><img src="assets/icons/shop.png"></a>
-            <a><img src="assets/icons/menu.png"></a>
+            <a><img src="assets/icons/search.png" alt="search icon"></a>
+            <a><img src="assets/icons/profile.png" alt="profile icon"></a>
+            <a><img src="assets/icons/shop.png" alt="shopping cart icon"></a>
+            <a><img src="assets/icons/menu.png" alt="hamburger menu icon"></a>
         </nav>
         <div id="upperMargin">
         </div>
         <article class="hero">
-                <video class="video" autoplay muted loop src="assets/videos/ANIMATION_BACKPACK_FINAL_V2.webm"></video>
-            <button class="pauseButton" id="button1"><img src="assets/icons/pause.png"></button>
+                <video class="video" autoplay muted loop src="assets/videos/ANIMATION_BACKPACK_FINAL_V2.webm" alt="A gray KinForma backpack shown from different angles. It showcases the difftent attachable/detachable pocket components."></video>
+            <button class="pauseButton" id="button1"><img src="assets/icons/pause.png" alt="hero backpack pause button"></button>
         </article>
     </section>
     <article class="catigoryContainer">
@@ -23,19 +23,19 @@ require __DIR__ . '/header.php';
         <section class="productPictures">
         <div>
             <h3>Kläder</h3>
-            <img src="assets/images/jacket_katalog_green.png">
+            <img src="assets/images/jacket_katalog_green.png" alt="A green KinForma Jacket with two large black pockets on the front. The hood and arms on the jacket are also in the darker color.">
         </div>
         <div>
             <h3>Accessoarer</h3>
-            <img src="assets/images/bag_katalog_red.png">
+            <img src="assets/images/bag_katalog_red.png" alt="An orange KinForma bag with five brown pockets on the front.">
         </div>
         <div>
             <h3>Beauty</h3>
-            <img src="assets/images/Signetring.jpg">
+            <img src="assets/images/Signetring.jpg" alt="A black KinForma ring with an orange KinForma loga on the top. It is displayed in a black ring box.">
         </div>
         <div>
             <h3>Merch</h3>
-            <img src="assets/images/Karbinhake.jpg">
+            <img src="assets/images/Karbinhake.jpg" alt="Three carabiners in green, gellow and orange.">>
         </div>
     </section>
     </article>
@@ -44,8 +44,8 @@ require __DIR__ . '/header.php';
         <p>Kin tech/material är utvecklad med fem lager som skyddar och håller. Med våra epd-noder kan du lätt bevara din saker </p>
     </section>
     <article class="materialVideo">
-        <video class="video" autoplay muted loop src="assets/videos/ANIMATION_TECHNICAL_FINAL_V3.webm"></video>
-        <button class="pauseButton"><img src="assets/icons/pause.png"></button>
+        <video class="video" autoplay muted loop src="assets/videos/ANIMATION_TECHNICAL_FINAL_V3.webm" alt="A video showcasing how the KinForma material is built"></video>
+        <button class="pauseButton"><img src="assets/icons/pause.png" alt="material information pause button"></button>
     </article>
 
  <!-- configurator -->
@@ -55,18 +55,18 @@ require __DIR__ . '/header.php';
             <p>Designa dina egna KIN/FORM saker. Skapa det som du gillar bäst.</p>
             <div id="productsToConfigurate">
                 <div>
-                    <img id="bagImage" src="assets/images/konfig_icon_bag.png">
+                    <img id="bagImage" src="assets/images/konfig_icon_bag.png" alt="Button for showcasing the backpack in the configurator">
                     <h4>TECH VÄSKA</h4>
                 </div>
                 <div>
-                    <img id="jacketImage" src="assets/images/konfig_jacket_icon.png">
+                    <img id="jacketImage" src="assets/images/konfig_jacket_icon.png" alt="Button for showcasing the jacket in the configurator">
                     <h4>TECH JACKA</h4>
                 </div>
             </div>
         </div>
         <div id="config">
             <div class="variantHolder">
-                <img id="productVariant" src="assets/images/model1-red.png" /><br />
+                <img id="productVariant" src="assets/images/model1-red.png" alt="the chosen item and color"/><br />
                 <p id="productInfo">KIN/FORM BAG är omsorgsfullt utvecklad med KIN Tech/ material</p>
             </div>
             <section class="pockets">
@@ -88,20 +88,20 @@ require __DIR__ . '/header.php';
             <b>
                 Namnge din KIN/FORM design:
             </b>
-            <input type="text" name="text" placeholder="ex. Min KIN/FORM väska*" id="">
+            <input type="text" name="text" placeholder="ex. Min KIN/FORM väska*" id="" alt="an input field for naming your design">
             <b>
                 E-post:
             </b>
-            <input type="email" name="email" placeholder="E-postadress*" id="">
+            <input type="email" name="email" placeholder="E-postadress*" id="" alt="input field for email address">
             <button class="Sparabutton"> Spara din design </button>
           </form>
     </article>
     <section class="fullScreenImage-marquee-container">
         <section class="fullScreenImage">
-            <img class="backpackersImage" src="assets/images/IMAGE_FOOTER.jpg">
+            <img class="backpackersImage" src="assets/images/IMAGE_FOOTER.jpg" alt="A person on a climbing a rock in their orange colored KinForma jacket and and green backpack. In the backgroung there are some treetops barely visible.">
         </section>
         <section class="marquee-wrapper">
-            <button class="marquee-pauseButton"></button>
+            <button class="marquee-pauseButton" alt="running text pause button"></button>
             <div class="marquee-text">
                 <div class="marquee-text-track">
                     <p>MISSA INTE CHANSEN LÄMNA DIN E-POST ADRESS</p>
@@ -110,7 +110,7 @@ require __DIR__ . '/header.php';
                     <p aria-hidden="true">MISSA INTE CHANSEN LÄMNA DIN E-POST ADRESS</p>
                 </div>
             </div>
-            <button class="marquee-close-button"></button>
+            <button class="marquee-close-button" alt="close running text button"></button>
         </section>
     </section>
     </div>
@@ -125,13 +125,13 @@ require __DIR__ . '/header.php';
         </p>
         </div>
         <form class="Nyhetsform" action="index.php" method="post">
-        <input type="email" name="Email" placeholder="E-postadress*" id="">
+            <input type="email" name="Email" placeholder="E-postadress*" id="" alt="input field for email address">
         <button class="Nyhetsbutton" > Få vårt nyhetsbrev </button>
         </form>
     </div>
     <article class="lastVideo">
-        <video class="video" id="turntable" autoplay muted loop src="assets/videos/jacket_animation_footer.mp4"></video>
-        <button class="pauseButton"><img src="assets/icons/pause.png"></button>
+        <video class="video" id="turntable" autoplay muted loop src="assets/videos/jacket_animation_footer.mp4" alt="a kinforma jacket slowly turning and changing colors."></video>
+        <button class="pauseButton"><img src="assets/icons/pause.png" alt="spinning jacket pause button"></button>
     </article>
     </div>
 </main>

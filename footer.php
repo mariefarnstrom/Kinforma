@@ -13,10 +13,10 @@
                     </div>
                 </div>
                 <div class="socials">
-                    <a><img src="assets/icons/facebook.png"></a>
-                    <a><img src="assets/icons/insta.png"></a>
-                    <a><img src="assets/icons/patreon.png"></a>
-                    <a><img src="assets/icons/tiktok.png"></a>
+                    <a><img src="assets/icons/facebook.png" alt="facebook logo"></a>
+                    <a><img src="assets/icons/insta.png" alt="instagram logo"></a>
+                    <a><img src="assets/icons/patreon.png" alt="patreon logo"></a>
+                    <a><img src="assets/icons/tiktok.png" alt="tiktok logo"></a>
                 </div>
             </nav>
             <p class="footerLogo">KIN/FORMA</p>
