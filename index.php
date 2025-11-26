@@ -45,7 +45,7 @@ require __DIR__ . '/header.php';
     </section>
     <article class="materialVideo">
         <video class="video" autoplay muted loop src="assets/videos/ANIMATION_TECHNICAL_FINAL_V3.webm" alt="A video showcasing how the KinForma material is built"></video>
-        <button class="pauseButton"><img src="assets/icons/pause.png" alt="material information pause button"></button>
+        <button class="pauseButton" id="button2"><img src="assets/icons/pause.png" alt="material information pause button"></button>
     </article>
 
  <!-- configurator -->
@@ -66,7 +66,7 @@ require __DIR__ . '/header.php';
         </div>
         <div id="config">
             <div class="variantHolder">
-                <img id="productVariant" src="assets/images/model1-red.png" alt="the chosen item and color"/><br />
+                <img id="productVariant" src="assets/images/model1-blue.png" alt="the chosen item and color"/><br />
                 <p id="productInfo">KIN/FORM BAG är omsorgsfullt utvecklad med KIN Tech/ material</p>
             </div>
             <section class="pockets">
@@ -92,7 +92,7 @@ require __DIR__ . '/header.php';
             <b>
                 E-post:
             </b>
-            <input type="email" name="email" placeholder="E-postadress*" id="" alt="input field for email address">
+            <input type="email" name="email" placeholder="min.email@gmail.com*" id="" alt="input field for email address">
             <button class="Sparabutton"> Spara din design </button>
           </form>
     </article>
@@ -125,7 +125,7 @@ require __DIR__ . '/header.php';
         </p>
         </div>
         <form class="Nyhetsform" action="index.php" method="post">
-            <input type="email" name="Email" placeholder="E-postadress*" id="" alt="input field for email address">
+            <input type="email" name="Email" placeholder="min.email@gmail.com*" id="" alt="input field for email address">
         <button class="Nyhetsbutton" > Få vårt nyhetsbrev </button>
         </form>
     </div>

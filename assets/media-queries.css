@@ -24,7 +24,7 @@
     background-color: var(--dark-background-color);
   }
   .hero {
-    height: 100vh;
+    height: 95vh;
   }
   #categoriesHeading {
     display: none;
@@ -48,6 +48,9 @@
   .materialVideo {
     aspect-ratio: unset;
   }
+  #button2 {
+    bottom: 2rem;
+}
 }
 
 /* configurator */
@@ -148,24 +151,41 @@
 @media screen and (min-width: 800px) {
   footer nav {
     display: flex;
+    flex-wrap: nowrap;
     flex-direction: row-reverse;
     width: 100%;
     align-items: center;
     justify-content: space-between;
   }
+
   .aboutUs, .socials {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    width: 35%;
+    width: 50%;
+    gap: 1rem;
   }
+
   .aboutUs {
-    gap: 4rem;
+    justify-content: flex-end;
   }
+
+  .socials {
+    justify-content: flex-start;
+  }
+
+  .socials a {
+    margin-right: 2rem;
+  }
+  
   .aboutUs a {
-    display: flex;
     margin: 0 1px;
-    justify-content: space-between;
+    margin-right: 1rem;
+  }
+
+  .aboutUs p {
+    white-space: nowrap;
+  }
+
+  .language {
+    gap: 0.5rem;
   }
   footer {
     height: 30vh;
@@ -185,12 +205,10 @@
   }
   .inputContainer {
     display: flex;
-    /* align-items: center; */
     flex-direction: column;
     justify-content: center;
     width: 50%;
     padding: 0 7rem;
-    /* margin: 0 7.2rem; */
   }
   #emailForm {
     display: flex;
