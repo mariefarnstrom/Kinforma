@@ -52,7 +52,7 @@ header {
 
 }
 .desktopNavbarContainer p{
-    margin: 1rem;
+    margin: 1rem 0.7rem;
 
 }
 .naviconContainer{
@@ -61,7 +61,7 @@ header {
     justify-content: space-between;
 }
 .naviconContainer img{
-    margin-left: 2rem;
+    margin-left: 1.5rem;
 }
 .navTitle {
     font-family: var(--logo-font);
