@@ -42,7 +42,7 @@ require __DIR__ . '/header.php';
         <p>Kin tech/material är utvecklad med fem lager som skyddar och håller. Med våra epd-noder kan du lätt bevara din saker </p>
     </section>
     <article class="materialVideo">
-        <video class="video" autoplay muted loop src="assets/videos/ANIMATION_TECHNICAL_FINAL_V2.webm"></video>
+        <video class="video" autoplay muted loop src="assets/videos/ANIMATION_TECHNICAL_FINAL_V3.webm"></video>
         <button class="pauseButton"><img src="assets/icons/pause.png"></button>
     </article>
 
