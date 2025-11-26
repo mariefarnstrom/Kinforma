@@ -11,6 +11,8 @@ require __DIR__ . '/header.php';
             <a><img src="assets/icons/shop.png"></a>
             <a><img src="assets/icons/menu.png"></a>
         </nav>
+        <div id="upperMargin">
+        </div>
         <article class="hero">
                 <video class="video" autoplay muted loop src="assets/videos/ANIMATION_BACKPACK_FINAL_V2.webm"></video>
             <button class="pauseButton" id="button1"><img src="assets/icons/pause.png"></button>
@@ -68,14 +70,14 @@ require __DIR__ . '/header.php';
                 <p id="productInfo">KIN/FORM BAG är omsorgsfullt utvecklad med KIN Tech/ material</p>
             </div>
             <section class="pockets">
-                <div><img id="model1" class="modelButton" src="assets/images/pocket_v1.png" data-model="model1"></div>
+                <div><img id="model1" class="modelButton active" src="assets/images/pocket_v1.png" data-model="model1"></div>
                 <div><img id="model2" class="modelButton" src="assets/images/pocket_v2.png" data-model="model2"></div>
                 <div><img id="model3" class="modelButton" src="assets/images/pocket_v3.png" data-model="model3"></div>
                 <div><img id="model4" class="modelButton" src="assets/images/pocket_v4.png" data-model="model4"></div>
             </section>
             <!-- Color buttons -->
             <div id="colors">
-                <div id="blueButton" class="colorButton" data-color="blue"></div>
+                <div id="blueButton" class="colorButton active" data-color="blue"></div>
                 <div id="greenButton" class="colorButton" data-color="green"></div>
                 <div id="redButton" class="colorButton" data-color="red"></div>
             </div>
