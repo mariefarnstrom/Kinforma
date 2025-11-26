@@ -1,7 +1,7 @@
 # Kinforma – Landing Page Project
 ### Overview
 
-This repository contains a prototype landing page for Kinforma, a new fashion and technology brand. The purpose of the page is to introduce the brand, present the first product collection, communicate key values, and collect email addresses for future customer engagement. The design follows a mobile-first, minimalist, and tech-influenced visual style.
+This repository contains a prototype landing page for Kinforma, a new fashion and technology brand. The purpose of the page is to introduce the brand, present the first product collection and collect email addresses for future customer engagement. The web design follows a mobile-first, minimalist, and tech-influenced visual style.
 
 ## Project Scope
 
@@ -9,19 +9,13 @@ The landing page includes:
 
 * Brand introduction and core messaging
 
-* Product images (lifestyle, isolated, packshot, and animation)
+* Product images and videos (lifestyle, isolated, packshot, and animation)
 
-* Email signup field
+* Email signup fields
 
-* Call-to-action buttons
+* Configurator to view different possible designs
 
-* Sustainability and company information
-
-* Simple language toggle (Swedish to English)
-
-* Visualization of an advanced technology concept
-
-* Packaging design for at least one product
+* Visualization of an advanced technology concept with changable parts and magnetic fabric
 
 ## Target Audience
 
@@ -29,30 +23,18 @@ Individuals aged 20–40 who value modern design, sustainability, personal brand
 
 ## Technologies Used
 
-* HTML5
+* HTML
 
-* CSS3
+* CSS
 
 * JavaScript
 
 * PHP
 
-## Product Categories
+## Project team Responsibilities
+Members of class:
 
-The collection we came up with had includ at least one product from each category:
-
-* Apparel - Jacket
-
-* Beauty - Ring
-
-* Accessories - Backpack
-
-* Merch - Carabiner
-
-* Advanced technology concept - Changable parts and magnetic fabric
-
-## Team Responsibilities
-### Digital Design (DD)
+### Digital Design
 
 * Brand identity
 
@@ -60,20 +42,12 @@ The collection we came up with had includ at least one product from each categor
 
 * UI/UX design
 
-* PowerPoint presentation
-
-### Computer Graphics (CG)
+### Computer Graphics
 
 * 3D modeling and rendering
 
 * Product animations
 
-### Web Development (WU)
+### Web Development
 
-* Responsive and interactive layout
-
-* Deploy the finished site
-
-## Team Members
-
-(Add your names below.)
+* Responsive and interactive layout and functionality
