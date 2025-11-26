@@ -7,8 +7,8 @@
                 <div class="aboutUs">
                     <a href="/"><p>OM KINFORMA</p></a>
                     <a href="/"><p>KONTAKTA OSS</p></a>
-                    <div class="langauage">
-                        <a class="chosenLangauage" href="/"><p>SE</p></a>
+                    <div class="language">
+                        <a class="chosenLangauage" href="/"><p>SV</p></a>
                         <a href="/"><p>EN</p></a>
                     </div>
                 </div>
