@@ -63,6 +63,9 @@ header {
 .naviconContainer img{
     margin-left: 2rem;
 }
+.navTitle {
+    font-family: var(--logo-font);
+}
 
 #siteTitle {
     font-family: var(--logo-font);

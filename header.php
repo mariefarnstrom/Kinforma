@@ -31,8 +31,9 @@ if (isset($_POST['email'], $_POST['text'])) {
         
     </section>
     <div class="desktopNavbar">
-        <p class="siteTitle">KIN/FORMA</p>
+        
         <div class="desktopNavbarContainer">
+            <p class="navTitle">KIN/FORMA</p>
             <p>KLÄDER</p>
             <p>BEAUTY</p>
             <p>ACCESOARER</p>
