@@ -45,7 +45,7 @@ require __DIR__ . '/header.php';
     </section>
     <article class="materialVideo">
         <video class="video" autoplay muted loop src="assets/videos/ANIMATION_TECHNICAL_FINAL_V3.webm"></video>
-        <button class="pauseButton"><img src="assets/icons/pause.png"></button>
+        <button class="pauseButton" id="button2"><img src="assets/icons/pause.png"></button>
     </article>
 
  <!-- configurator -->
@@ -66,7 +66,7 @@ require __DIR__ . '/header.php';
         </div>
         <div id="config">
             <div class="variantHolder">
-                <img id="productVariant" src="assets/images/model1-red.png" /><br />
+                <img id="productVariant" src="assets/images/model1-blue.png" /><br />
                 <p id="productInfo">KIN/FORM BAG är omsorgsfullt utvecklad med KIN Tech/ material</p>
             </div>
             <section class="pockets">
@@ -92,7 +92,7 @@ require __DIR__ . '/header.php';
             <b>
                 E-post:
             </b>
-            <input type="email" name="email" placeholder="E-postadress*" id="">
+            <input type="email" name="email" placeholder="min.email@gmail.com*" id="">
             <button class="Sparabutton"> Spara din design </button>
           </form>
     </article>
@@ -125,7 +125,7 @@ require __DIR__ . '/header.php';
         </p>
         </div>
         <form class="Nyhetsform" action="index.php" method="post">
-        <input type="email" name="Email" placeholder="E-postadress*" id="">
+        <input type="email" name="Email" placeholder="min.email@gmail.com*" id="">
         <button class="Nyhetsbutton" > Få vårt nyhetsbrev </button>
         </form>
     </div>

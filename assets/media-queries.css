@@ -24,7 +24,7 @@
     background-color: var(--dark-background-color);
   }
   .hero {
-    height: 100vh;
+    height: 95vh;
   }
   #categoriesHeading {
     display: none;
@@ -48,6 +48,9 @@
   .materialVideo {
     aspect-ratio: unset;
   }
+  #button2 {
+    bottom: 2rem;
+}
 }
 
 /* configurator */
