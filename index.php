@@ -11,6 +11,8 @@ require __DIR__ . '/header.php';
             <a><img src="assets/icons/shop.png"></a>
             <a><img src="assets/icons/menu.png"></a>
         </nav>
+        <div id="upperMargin">
+        </div>
         <article class="hero">
                 <video class="video" autoplay muted loop src="assets/videos/ANIMATION_BACKPACK_FINAL_V2.webm"></video>
             <button class="pauseButton" id="button1"><img src="assets/icons/pause.png"></button>

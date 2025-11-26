@@ -34,6 +34,7 @@ header {
     background-color: var(--dark-background-color);
     height: 10rem;
 }
+
 .desktopNavbar{
     display: flex;
     color: var(--light-font-color);
