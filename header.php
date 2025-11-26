@@ -18,7 +18,7 @@ if (isset($_POST['email'], $_POST['text'])) {
 <body>
     <header>
     <section class="marquee-wrapper-header">
-        <button class="marquee-pauseButton"></button>
+        <button class="marquee-pauseButton" alt="running text pause button"></button>
         <div class="marquee-text">
             <div class="marquee-text-track">
                 <p>MISSA INTE CHANSEN LÄMNA DIN E-POST ADRESS</p>
@@ -27,7 +27,7 @@ if (isset($_POST['email'], $_POST['text'])) {
                 <p aria-hidden="true">MISSA INTE CHANSEN LÄMNA DIN E-POST ADRESS</p>
             </div>
         </div>
-        <button class="marquee-close-button"></button>
+        <button class="marquee-close-button" alt="close running text button"></button>
         
     </section>
     <div class="desktopNavbar">
@@ -39,9 +39,9 @@ if (isset($_POST['email'], $_POST['text'])) {
             <p>MERCH</p>
         </div>
         <div class="naviconContainer">
-            <img src="assets/images/search-icon.png" alt="search-icon">
-            <img src="assets/images/profile-icon.png" alt="profile-icon">
-            <img src="assets/images/shop-icon.png" alt="shop-icon">
+            <img src="assets/images/search-icon.png" alt="search icon">
+            <img src="assets/images/profile-icon.png" alt="profile icon">
+            <img src="assets/images/shop-icon.png" alt="shopping cart icon">
         </div>
     </div>
     
