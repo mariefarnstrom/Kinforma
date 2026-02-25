@@ -74,6 +74,3 @@ The collection we came up with had includ at least one product from each categor
 
 * Deploy the finished site
 
-## Team Members
-
-(Add your names below.)
